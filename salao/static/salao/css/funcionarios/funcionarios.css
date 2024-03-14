@@ -1,0 +1,84 @@
+.container {
+    margin-top: 3rem;
+}
+    
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-header:first-child {
+    border-radius: .25rem .25rem 0 0;
+    display: flex;
+}
+.card-header {
+    border-bottom-width: 1px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+thead {
+    border-bottom: 2px solid black;
+}
+
+.adiciona-funcionario-btn {
+    margin-left: auto;
+    margin-right: 2%;
+    color: #136fe8;
+    font-weight: normal;
+}
+
+th {
+    border-top: 0px;
+}
+
+thead {
+    border-top: 1px solid #dee2e6;
+}
+
+.card-funcionario {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding-top: 0px;
+    }
+
+    .card-header {
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+
+    table {
+        display: none;
+    }
+
+    .card-funcionario {
+        display: flow-root;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+}

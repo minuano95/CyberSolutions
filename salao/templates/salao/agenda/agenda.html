@@ -1,0 +1,338 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_name %}Agenda{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'salao/css/agenda/agenda.css' %}">
+<script src="{% static 'salao/js/agenda/agenda.js' %}"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<!--For Page-->
+<div class="page">
+    <div class="card">        
+        <div class="card-header">
+            <p> 
+                <i class="fa fa-calendar" id="openCalendar" aria-hidden="true"></i>
+                <span class="float-right">
+                    <span class="mr-4 navTask"          id="mostrarAgendamentos">Agendamentos</span>
+                    <span class="mr-4 navTask" id="mostrarConcluidos">Concluídos</span>
+                </span>
+            </p>
+        </div>
+
+        <div class="main-container">
+            <div class="calendar-container">
+                <div class="navigation">
+                    <button onclick="previousMonth()">&lt;</button>
+                    <div id="month-year-display"></div>
+                    <button onclick="nextMonth()">&gt;</button>
+                </div>
+                <div class="weekdays">
+                    <div class="day-name">Dom</div>
+                    <div class="day-name">Seg</div>
+                    <div class="day-name">Ter</div>
+                    <div class="day-name">Qua</div>
+                    <div class="day-name">Qui</div>
+                    <div class="day-name">Sex</div>
+                    <div class="day-name">Sáb</div>
+                </div>
+                <div class="calendar"></div>
+                <!-- Calendário será criado dinamicamente aqui -->
+            </div>
+        </div>
+
+        <!--Card Body-->
+        <div class="card-body">
+            <a href="{% url 'salao:novo_agendamento' %}">
+                <p class="text-muted" id="newTextIcon">
+                    <i class="fa fa-plus mr-1" aria-hidden="true"></i> 
+                    Adicionar Agendamento
+                </p>
+            </a>
+
+        <div class="cad-body-concluidos">
+            <p class="text-muted" id="labelConcluidos">
+                Agendamentos Concluídos
+            </p>
+
+        <div class="card-agendamentos">
+            {% for agendamento in agendamentos %}
+            
+            <div class="{% if agendamento.concluido %} agendamentosConcluidos {% else %} agendamentos {% endif %}" style="{% if agendamento.concluido %} display: none {% endif %}">
+                <div class="agenda-item" data-agendamento-data="{{ agendamento.data_inicio|date:"Y-m-d H:i:s" }}" data-agendamento-concluido="{{ agendamento.concluido }}">
+                    <div class="agenda-header">
+                        {% if not agendamento.concluido %}
+                        <input type="checkbox" id="checkbox{{ agendamento.id }}" name="agenda_checkbox" class="agenda-checkbox" onchange="updateConcluido({{ agendamento.id }})">
+                        {% endif %}
+                        <label for="checkbox{{ agendamento.id }}">{{ agendamento.titulo }}</label>
+                        
+                        <span class="time-schedule">{{ agendamento.data_inicio|time:"H:i" }} - {{ agendamento.data_final|time:"H:i" }}</span>
+                    </div>
+                    <p class="description">{{ agendamento.descricao }}</p>
+                    <p class="description">{{ agendamento.cliente.nome }} | {{ agendamento.cliente.telefone }}</p>
+                    <p class="description">{{ agendamento.funcionario.nome }}</p>
+                    <p class="description">{{ agendamento.data_final|date:"d/m/Y" }}</p>
+                    <div class="alteracoes-conteiner">
+                        <span class="editar-agendamento" data-agendamento-id="{{ agendamento.id }}"><a href="{% url 'salao:edita_agendamento' agendamento.id %}">Editar</a></span>
+                        <span class="cancelar-agendamento"><a onclick="return confirmDeletion({{ agendamento.id }});" href="{% url 'salao:deleta_agendamento' agendamento.id %}">Excluir</a></span>
+                    </div>
+                </div> 
+            </div> 
+                
+            {% endfor %}
+            
+        </div>
+    </div>
+</div>
+
+<!-- POPUP de sucesso -->
+<div class="modal" id="successModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Cabeçalho do Modal -->
+            <div class="modal-header">
+                <h4 class="modal-title">Sucesso!</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Corpo do Modal -->
+            <div class="modal-body">
+                Operação concluída com sucesso.
+            </div>
+            <!-- Rodapé do Modal -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- POPUP de confimação -->
+<script>
+    function confirmDeletion(agendamentoId) {
+        // Exibe uma mensagem de confirmação
+        var confirmDelete = confirm("Tem certeza que deseja deletar este agendamento?");
+
+        // Se o usuário confirmar, redireciona para a URL de deletar o agendamento
+        if (confirmDelete) {
+            window.location.href = `/salao/agenda/deleta_agendamento/${agendamentoId};`
+        } else {
+            // Se o usuário cancelar, retorna false para cancelar a ação
+            return false;
+        }
+    }
+</script>
+
+<!-- Altera o estado do agendamento para concluído -->
+<script>
+    function updateConcluido(agendamentoId) {
+        $.ajax({
+            url: '/salao/agenda/atualiza_agendamento/' + agendamentoId + '/',
+            type: 'POST',
+            data: {
+                csrfmiddlewaretoken: '{{ csrf_token }}'
+            },
+            success: function(response) {
+                // Lógica para lidar com a resposta de sucesso (se necessário)
+                location.reload();
+            },
+            error: function(xhr, status, error) {
+                // Lógica para lidar com erros (se necessário)
+                console.error('Erro ao atualizar o estado concluído:', error);
+            }
+        });
+    }
+</script>
+
+<!-- Mostra os agendamentos quando "Agendamentos" é clicado -->
+<script>
+    $(document).ready(function() {
+        $('#mostrarAgendamentos').on('click', function() {
+            $('.agendamentos').show();
+            $('.agendamentosConcluidos').hide();
+            
+            $('p.text-muted').show();
+            $('#labelConcluidos').hide();    
+
+            $('.agenda-item .description').css('margin-left', '22px');
+        });
+
+        // Mostra os agendamentos concluídos quando "Concluídos" é clicado
+        
+        $('#mostrarConcluidos').on('click', function() {
+            $('.agendamentos').hide();
+            $('.agendamentosConcluidos').show();
+            
+            $('p.text-muted').hide();
+            $('#labelConcluidos').show();
+
+            $('.agenda-item .description').css('margin-left', '0');
+        });
+    });
+</script>
+
+<!-- Calendário -->
+<script>
+    const calendar = document.querySelector('.calendar');
+    const monthYearElement = document.getElementById('month-year');
+    const dayNumberElement = document.getElementById('day-number');
+    let currentYear = new Date().getFullYear();
+    let currentMonth = new Date().getMonth() + 1; // Meses são indexados de 0 a 11
+    let selectedDate = null; // Variável para armazenar a data selecionada
+
+    function createCalendar(year, month) {
+        const date = new Date(year, month - 1, 1);
+        const daysInMonth = new Date(year, month, 0).getDate();
+        const firstDayIndex = date.getDay();
+        const currentDate = new Date();
+
+        calendar.innerHTML = '';
+
+        for (let i = 0; i < firstDayIndex; i++) {
+            const emptyDay = document.createElement('div');
+            emptyDay.classList.add('calendar-day');
+            calendar.appendChild(emptyDay);
+        }
+
+        for (let i = 1; i <= daysInMonth; i++) {
+            const day = document.createElement('div');
+            day.classList.add('calendar-day');
+            day.textContent = i;
+
+            // Adiciona um identificador de classe para cada dia com base no número do dia
+            day.classList.add(`day-${i}`); // Adiciona classe para cada dia (opcional)
+
+            // Event listener para os dias no calendário
+            day.addEventListener('click', function () {
+                const selectedDate = new Date(year, month - 1, i); // Inicialização da selectedDate
+            
+                // Remover a classe de todos os dias antes de adicionar ao dia selecionado
+                const allDays = document.querySelectorAll('.calendar-day');
+                allDays.forEach((day) => {
+                    day.classList.remove('selected-day');
+                });
+            
+                day.classList.add('selected-day');
+            
+                // Chama a função para atualizar o calendário com base na data selecionada
+                updateCalendarDisplay(selectedDate); // Passe a selectedDate como argumento
+            });
+
+            calendar.appendChild(day);
+        }
+    }
+
+    function previousMonth() {
+        currentMonth--;
+        if (currentMonth < 1) {
+            currentMonth = 12;
+            currentYear--;
+        }
+        createCalendar(currentYear, currentMonth);
+        updateMonthYearDisplay(); // Atualiza o texto do mês e do ano ao clicar em "Anterior"
+    }
+
+    function nextMonth() {
+        currentMonth++;
+        if (currentMonth > 12) {
+            currentMonth = 1;
+            currentYear++;
+        }
+        createCalendar(currentYear, currentMonth);
+        updateMonthYearDisplay(); // Atualiza o texto do mês e do ano ao clicar em "Próximo"
+    }
+
+    function updateMonthYearDisplay() {
+        const options = { month: 'long', year: 'numeric' };
+        const formattedDate = new Date(currentYear, currentMonth - 1, 1).toLocaleDateString('pt-BR', options);
+        const monthYearDisplay = document.getElementById('month-year-display');
+        monthYearDisplay.textContent = formattedDate;
+    }
+
+    // Chamada inicial para exibir o mês e o ano atual
+    updateMonthYearDisplay();
+    createCalendar(currentYear, currentMonth);
+</script>
+
+<!-- Abre calendário -->
+<script>
+    document.getElementById('openCalendar').addEventListener('click', function() {
+        $('.main-container').toggle();
+    });
+</script>
+
+
+<script>
+    function updateCalendarDisplay(selectedDate) {
+        if (selectedDate) {
+            $.ajax({
+                url: '/agenda/',
+                type: 'POST',
+                data: {
+                    csrfmiddlewaretoken: '{{ csrf_token }}',
+                    selected_date: selectedDate.toISOString().split('T')[0],
+                },
+                success: function(response) {    
+                    // Limpa o conteúdo atual dos contêineres de agendamentos
+                    $('.agendamentos').empty();
+                    $('.agendamentosConcluidos').empty();
+
+                    var $responseContent = $(response);
+                    var $agendamentos = $responseContent.find('.agendamentos');
+                    var $agendamentosConcluidos = $responseContent.find('.agendamentosConcluidos');
+                    var $cardAgendamentos = $responseContent.find('.card-agendamentos');
+
+                    // Atualiza os contêineres com os dados filtrados pela data selecionada
+                    // $('.agendamentos').html($agendamentos.html());
+                    // $('.agendamentosConcluidos').html($agendamentosConcluidos.html());
+                    $('.card-agendamentos').html($cardAgendamentos.html());
+    
+                    $('.agendamentos').show();
+                    $('.agendamentosConcluidos').hide();
+
+                    $('#newTextIcon').show();
+                    $('#labelConcluidos').hide();
+                
+                    processarAgendaItems();
+                },
+                error: function(xhr, status, error) {
+                    console.error('Erro ao atualizar os agendamentos:', error);
+                }
+            });
+        }
+    }
+</script>
+
+<script>
+    function processarAgendaItems() {
+        $('.agenda-item').each(function() {
+            var agendamentoData = new Date($(this).data('agendamento-data'));
+            var now = new Date();
+
+            if (agendamentoData < now) {
+                $(this).addClass('passado');
+            }
+    
+            var agendamentoStatus = $(this).data('agendamento-concluido');
+            agendamentoStatus = (agendamentoStatus === 'True');
+            agendamentoStatus = Boolean(agendamentoStatus);
+    
+            if (agendamentoStatus) {
+                $(this).removeClass('passado');
+                $(this).addClass('concluido');
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        processarAgendaItems();
+    });
+</script>
+{%endblock%}

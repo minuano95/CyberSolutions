@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_name %}Clientes{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="{% static 'salao/css/clientes/clientes.css' %}">
+<script src="{% static 'salao/js/clientes/clientes.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+	<div class="page">
+		<div class="card">
+			<div class="card-header pb-0">
+				<h5 class="card-title mb-0">Clientes</h5>
+				<h6 class="adiciona-cliente-btn"><a href="{% url 'salao:adiciona_cliente' %}">Adicionar</a></h6>
+			</div>
+			<div class="card-body">
+				<table class="table table-striped" style="width:100%">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Contato</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						{%for cliente in clientes %}
+						<tr class="cliente-item" data-cliente-staus="{{ cliente.staus }}">
+							<td>{{ cliente.nome }}</td>
+							<td>{{ cliente.telefone }}</td>
+							<td>{{ cliente.email }}</td>
+							<td class="editar-cliente" style="color: #136fe8;">
+								<a href="{% url 'salao:edita_cliente' cliente.id %}">
+									Editar
+								</a>
+							</td>
+							<td class="excluir-cliente" style="color: #136fe8;">
+								<a href="{% url 'salao:exclui_cliente' cliente.id %}">Excluir</a>
+							</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+
+				{%for cliente in clientes %}
+					<div class="card-cliente">
+						<p class="description">{{ cliente.nome }}</p>
+						<p class="description" style="color: #7a7a7a">{{ cliente.telefone }}</p>
+						<p class="description" style="color: #7a7a7a">{{ cliente.cpf }}</p>
+						<p class="description" style="color: #7a7a7a">{{ cliente.email }}</p>
+						<span class="editar-agendamento" data-agendamento-id="{{ cliente.id }}"><a href="{% url 'salao:edita_cliente' cliente.id %}">Editar</a></span>
+
+						<span class="cancelar-agendamento"><a href="{% url 'salao:exclui_cliente' cliente.id %}">Excluir</a></span>
+
+					</div>
+				{%endfor%}
+
+
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,153 @@
+body {
+    background-color: #000;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    margin-top: 1rem;
+    font-size: 1.5vw; /* Tamanho do texto responsivo em relação à largura da tela */
+    max-width: 600px; /* Tamanho máximo do texto para evitar que fique muito grande */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.card {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+}
+
+form {
+    padding-left: 2rem;
+    background-color: #e9e9e9cc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.funcionario-form input {
+    display: block;
+}
+
+.funcionario-form input[type="text"],
+.funcionario-form input[type="text"],
+.funcionario-form input[type="tel"],
+.funcionario-form input[type="email"],
+.funcionario-form input[type="checkbox"] {
+    display: block;
+    background-color: #f9f9f9;
+}
+
+.funcionario-form button {
+    background-color: #136fe8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0e5ca1;
+}
+
+.fecharForm {
+    background-color: #e81313;
+    color: white;
+}
+
+.fecharForm:hover {
+    background-color: #a10e0e;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* ou space-around, space-evenly, conforme necessário */
+    margin-top: 20px; /* Espaçamento entre os botões */
+}
+
+/* Adicione estilos para os botões conforme necessário */
+.adiciona,
+.cancela {
+    padding: 8px 16px; /* Tamanho dos botões */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px; /* Tamanho da fonte */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+/* Estilos específicos para o botão "Adicionar" */
+.adiciona {
+    background-color: #136fe8;
+    color: #fff;
+}
+
+/* Estilos específicos para o botão "Cancelar" */
+.cancela {
+    background-color: #e81313;
+    color: #fff;
+}
+
+/* Efeito de hover para os botões */
+.adiciona:hover,
+.cancela:hover {
+    filter: brightness(0.9); /* Ajuste a opacidade dos botões ao passar o mouse */
+}
+
+.error {
+    /* Estilos para a lista de erros que não pertencem a um campo específico */
+    color: #ff0000; /* Define a cor do texto para vermelho */
+    font-size: 14px; /* Define o tamanho da fonte para 14 pixels */
+    /* Adicione outros estilos conforme necessário */
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+    .titulo {
+        font-size: 4vw;
+    }
+
+    .card {
+        width: 100%;
+        font-size: 11px;
+        margin-top: 3rem;
+    }
+
+    .time {
+        font-size: 6px;
+    }
+
+    .funcionario-form input {
+        display: block;
+    }
+
+    .funcionario-form input[type="text"],
+    .funcionario-form input[type="tel"],
+    .funcionario-form input[type="email"],
+    .funcionario-form input[type="checkbox"],
+    .funcionario-form button {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_name %}Funcionários{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="{% static 'salao/css/funcionarios/funcionarios.css' %}">
+<script src="{% static 'salao/js/funcionarios/funcionarios.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+	<div class="page">
+		<div class="card">
+			<div class="card-header pb-0">
+				<h5 class="card-title mb-0">Funcionários</h5>
+				<h6 class="adiciona-funcionario-btn"><a href="{% url 'salao:adiciona_funcionario' %}">Adicionar</a></h6>
+			</div>
+			<div class="card-body">
+				<table class="table table-striped" style="width:100%">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Contato</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						{%for funcionario in funcionarios %}
+						<tr class="funcionario-item" data-funcionario-staus="{{ funcionario.staus }}">
+							<td>{{ funcionario.nome }}</td>
+							<td>{{ funcionario.telefone }}</td>
+							<td>{{ funcionario.email }}</td>
+							<td class="editar-funcionario" style="color: #136fe8;">
+								<a href="{% url 'salao:edita_funcionario' funcionario.id %}">
+									Editar
+								</a>
+							</td>
+							<td class="excluir-funcionario" style="color: #136fe8;">
+								<a href="{% url 'salao:exclui_funcionario' funcionario.id %}">Excluir</a>
+							</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+
+				{%for funcionario in funcionarios %}
+					<div class="card-funcionario">
+						<p class="description">{{ funcionario.nome }}</p>
+						<p class="description" style="color: #7a7a7a">{{ funcionario.telefone }}</p>
+						<p class="description" style="color: #7a7a7a">{{ funcionario.cpf }}</p>
+						<p class="description" style="color: #7a7a7a">{{ funcionario.email }}</p>
+						<span class="editar-agendamento" data-agendamento-id="{{ funcionario.id }}"><a href="{% url 'salao:edita_funcionario' funcionario.id %}">Editar</a></span>
+						<span class="cancelar-agendamento"><a href="{% url 'salao:exclui_funcionario' funcionario.id %}">Excluir</a></span>
+
+					</div>
+				{%endfor%}
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

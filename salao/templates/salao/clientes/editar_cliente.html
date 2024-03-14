@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_name %}Editar Cliente{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'salao/css/clientes/editar_cliente.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    function redirecionarParaPagina() {
+        window.location.href = '/salao/clientes/';
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <form action="{% url 'salao:edita_cliente' cliente.id %}" method="POST">
+        {% csrf_token %}
+        <h1 class="titulo">Editar Cliente</h1>
+        
+        {% for field in form %}
+            <div class="form-group">
+                <label for="{{ field.id_for_label }}"  style="display: block; {% if field.id_for_label == id_status %}display: flex;{% endif %}">{{ field.label }}</label>
+                
+                {% if field.name == 'divida' %}
+                    <input type="text" name="{{ field.name }}" id="id_divida" value="{{ field.value }}" readonly>
+                {% else %}
+                    {{ field }}
+                {% endif %}
+                {% if field.errors %}
+                    <span class="error">{{ field.errors.as_text }}</span>
+                {% endif %}
+            </div>
+        {% endfor %}
+        
+        <div class="button-container">
+            <button type="submit" class="adiciona">Editar</button>
+            <button type="button" class="cancela" onclick="redirecionarParaPagina();">Cancelar</button>
+        </div>
+    </form>
+</div>
+{%endblock%}

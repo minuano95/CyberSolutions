@@ -1,0 +1,134 @@
+.container {
+    margin-top: 3rem;
+}
+    
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-header:first-child {
+    border-radius: .25rem .25rem 0 0;
+    display: flex;
+}
+.card-header {
+    border-bottom-width: 1px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.altera-financeiro {
+    margin-left: auto;
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+.altera-financeiro .suprimento {
+    margin-right: 1rem;
+}
+
+thead {
+    border-bottom: 2px solid black;
+}
+
+.adiciona-cliente-btn {
+    margin-left: auto;
+    margin-right: 2%;
+    color: #136fe8;
+    font-weight: normal;
+}
+
+th {
+    border-top: 0px;
+}
+
+thead {
+    border-top: 1px solid #dee2e6;
+}
+
+.card-financeiro {
+    display: none;
+}
+
+.analisar-btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+    text-align: inherit;
+    text-decoration: none;
+    outline: none;
+    color: #136fe8;
+}
+
+
+.table {
+    margin-top: 2rem;
+}
+
+#myChart {
+    max-height: 22rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 0.25rem;
+    }
+
+    .card-header {
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+
+    table {
+        display: none;
+    }
+
+    .card-financeiro {
+        display: flow-root;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #myChart {
+        min-width: 345px;
+        max-width: 345px;
+    }
+
+    #body-pd {
+        padding-left: 0px;
+    }
+
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 2rem;
+    }
+}

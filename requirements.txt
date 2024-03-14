@@ -1,0 +1,6 @@
+django
+setuptools
+django-phonenumber-field
+phonenumbers
+django-countries
+mysql-connector-python

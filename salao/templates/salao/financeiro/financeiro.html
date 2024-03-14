@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_name %}Financeiro{% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Adicione este script para incluir o Chart.js -->
+<link rel="stylesheet" href="{% static 'salao/css/financeiro/financeiro.css' %}">
+<script src="{% static 'salao/js/financeiro/financeiro.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page">
+        <div class="card">
+            <div class="card-header pb-0">
+                <h5 class="card-title mb-0">Financeiro</h5>
+             
+            </div>
+            <div class="card-body">
+                <canvas id="myChart" width="400" height="200"></canvas> 
+			
+				<table class="table table-striped" style="width:100%">
+					<thead>
+						<tr>
+							<th>Mês</th>
+							<th>Entrada</th>
+							<th>Saída</th>
+							<th>Saldo</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for ano, meses in dados_por_mes.items %}
+							{% for mes, dados_mes in meses.items %}
+								<tr>
+									<td>{{ mes }}/{{ ano }}</td>
+									<td>{{ dados_mes.entradas }}</td>
+									<td>{{ dados_mes.saidas }}</td>
+									<td>{{ dados_mes.saldo }}</td>
+									<td class="editar-funcionario" style="color: #136fe8;">
+										{% comment %} <a href="{% url 'analisar_mes' ano mes %}"> {% endcomment %}
+											Analisar
+										{% comment %} </a> {% endcomment %}
+									</td>
+								</tr>
+							{% endfor %}
+						{% endfor %}
+					</tbody>
+				</table>
+
+				{%for funcionario in funcionarios %}
+					<div class="card-mes">
+						<p class="description">{{ funcionario.nome }}</p>
+						<p class="description" style="color: #7a7a7a">{{ funcionario.telefone }}</p>
+						<p class="description" style="color: #7a7a7a">{{ funcionario.cpf }}</p>
+						<p class="description" style="color: #7a7a7a">{{ funcionario.email }}</p>
+						<span class="editar-agendamento" data-agendamento-id="{{ funcionario.id }}"><a href="{% url 'salao:edita_funcionario' funcionario.id %}">Editar</a></span>
+						<span class="cancelar-agendamento"><a href="{% url 'salao:exclui_funcionario' funcionario.id %}">Excluir</a></span>
+
+					</div>
+				{%endfor%}
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="popup" class="modal fade" display="none">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Adicionar valor</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control" id="valorInput" placeholder="Insira um valor">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="adicionarValor()">Adicionar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+    $('#suprimentoLink').on('click', function() {
+        $('#popup').modal('show');
+    });
+
+    function adicionarValor() {
+        var valor = $('#valorInput').val();
+        console.log("Valor inserido:", valor);
+        $('#popup').modal('hide');
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        var dados = {{ dados_por_mes|safe }};
+        var meses = [];
+        var entradas = [];
+        var saidas = [];
+
+        // Iterar sobre os dados_por_mes para extrair os meses, entradas e saídas
+        Object.keys(dados).forEach(function(ano) {
+            Object.keys(dados[ano]).forEach(function(mes) {
+                meses.push(mes + '/' + ano);
+                // Adicionando entradas
+                entradas.push(parseFloat(dados[ano][mes]['entradas'].replace('R$ ', '').replace(',', '.')));
+                // Verificando se há dados de saída, senão, adicionando 0
+                if (dados[ano][mes]['saidas']) {
+                    saidas.push(parseFloat(dados[ano][mes]['saidas'].replace('R$ ', '').replace(',', '.')));
+                } else {
+                    saidas.push(0);
+                }
+            });
+        });
+
+        // Configuração do gráfico
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line', // Usando gráfico de linha
+            data: {
+                labels: meses, // Meses no eixo x
+                datasets: [{
+                    label: 'Entradas',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1,
+                    data: entradas // Valores de entrada
+                }, {
+                    label: 'Saídas',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1,
+                    data: saidas // Valores de saída
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                responsive: true, // Tornar o gráfico responsivo
+                maintainAspectRatio: false // Permitir que o gráfico ajuste sua altura automaticamente
+            }
+        });
+    });
+</script>
+
+	
+{% endblock %}
