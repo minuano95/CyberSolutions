@@ -1,8 +1,9 @@
 
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
-from ..models import Agendamento
+from ..models import Agendamento, Financeiro
 from ..forms import AgendamentoForm
+from datetime import datetime
 
 # Django-apscheduler
 # from apscheduler.schedulers.background import BackgroundScheduler
@@ -100,6 +101,19 @@ def atualiza_agendamento(request, agendamento_id):
         agendamento = Agendamento.objects.get(pk=agendamento_id)
         agendamento.concluido = True
         agendamento.save()
+        
+        novo_registro_financeiro = Financeiro(
+            entrada = agendamento.preco,
+            saida = 0,
+            descricao = f'{agendamento.id} | {agendamento.titulo} | {agendamento.cliente} | {agendamento.funcionario}',
+            is_agendamento = True,
+            id_agendamento = agendamento_id,
+            data = datetime.now()       
+        )
+        
+        novo_registro_financeiro.save()
+        print('Registro salvo')
+        
         return redirect('salao:agendamentos_concluidos')
     return redirect('salao:agenda')
 

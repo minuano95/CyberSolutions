@@ -43,8 +43,8 @@ class Agendamento(models.Model):
 class Financeiro(models.Model):
     entrada = models.FloatField()
     saida = models.FloatField()
-    descricao = models.CharField(max_length=50)
-    is_agendamento = models.BooleanField(False)
+    descricao = models.CharField(max_length=100)
+    is_agendamento = models.BooleanField(default=False)
     id_agendamento = models.CharField(max_length=3, blank=True)
     data = models.DateTimeField()
     

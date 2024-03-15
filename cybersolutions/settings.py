@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'cybersolutions.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django',
-        'NAME': 'salao',
-        'USER': 'root',
+        'NAME': 'cybersolutions',
+        'USER': 'minuano95',
         'PASSWORD': 'Ruizdesangue00.',
-        'HOST': '54.207.52.193',
+        'HOST': '18.231.73.132',
         'PORT': '3306'
     }
 }
