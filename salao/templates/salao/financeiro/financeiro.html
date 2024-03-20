@@ -21,7 +21,7 @@
              
             </div>
             <div class="card-body">
-                <canvas id="myChart" width="400" height="200"></canvas> 
+                <canvas id="myChart" width="400" height="400"></canvas>
 			
 				<table class="table table-striped" style="width:100%">
 					<thead>
@@ -40,7 +40,7 @@
 									<td>{{ dados_mes.entradas }}</td>
 									<td>{{ dados_mes.saidas }}</td>
 									<td>{{ dados_mes.saldo }}</td>
-									<td class="editar-funcionario" style="color: #136fe8;">
+									<td class="editar-funcionario" style="color: #36A2EB;">
 										{% comment %} <a href="{% url 'analisar_mes' ano mes %}"> {% endcomment %}
 											Analisar
 										{% comment %} </a> {% endcomment %}
@@ -84,74 +84,58 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
 
 <script>
-    $('#suprimentoLink').on('click', function() {
-        $('#popup').modal('show');
-    });
+    // Dados vindos do Django
+    const dadosPorMes = {{ dados_por_mes|safe }};
 
-    function adicionarValor() {
-        var valor = $('#valorInput').val();
-        console.log("Valor inserido:", valor);
-        $('#popup').modal('hide');
+    // Preparando os dados para o gráfico
+    const labels = [];
+    const entradas = [];
+    const saidas = [];
+
+    for (const ano in dadosPorMes) {
+        for (const mes in dadosPorMes[ano]) {
+            labels.push(`${mes}/${ano}`);
+            entradas.push(parseFloat(dadosPorMes[ano][mes].entradas.replace('R$ ', '').replace(',', '.')));
+            saidas.push(parseFloat(dadosPorMes[ano][mes].saidas.replace('R$ ', '').replace(',', '.')));
+        }
     }
-</script>
 
-<script>
-    $(document).ready(function() {
-        var dados = {{ dados_por_mes|safe }};
-        var meses = [];
-        var entradas = [];
-        var saidas = [];
-
-        // Iterar sobre os dados_por_mes para extrair os meses, entradas e saídas
-        Object.keys(dados).forEach(function(ano) {
-            Object.keys(dados[ano]).forEach(function(mes) {
-                meses.push(mes + '/' + ano);
-                // Adicionando entradas
-                entradas.push(parseFloat(dados[ano][mes]['entradas'].replace('R$ ', '').replace(',', '.')));
-                // Verificando se há dados de saída, senão, adicionando 0
-                if (dados[ano][mes]['saidas']) {
-                    saidas.push(parseFloat(dados[ano][mes]['saidas'].replace('R$ ', '').replace(',', '.')));
-                } else {
-                    saidas.push(0);
+    // Configuração do gráfico
+    const config = {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Entradas',
+                backgroundColor: '#93B9FF',
+                data: entradas,
+                barThickness: 60 // Definindo a largura máxima das barras de entrada
+            }, {
+                label: 'Saídas',
+                backgroundColor: '#ff6568',
+                data: saidas,
+                barThickness: 60 // Definindo a largura máxima das barras de saída
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
                 }
-            });
-        });
-
-        // Configuração do gráfico
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var myChart = new Chart(ctx, {
-            type: 'line', // Usando gráfico de linha
-            data: {
-                labels: meses, // Meses no eixo x
-                datasets: [{
-                    label: 'Entradas',
-                    borderColor: 'rgba(54, 162, 235, 1)',
-                    borderWidth: 1,
-                    data: entradas // Valores de entrada
-                }, {
-                    label: 'Saídas',
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    borderWidth: 1,
-                    data: saidas // Valores de saída
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true
-                        }
-                    }]
-                },
-                responsive: true, // Tornar o gráfico responsivo
-                maintainAspectRatio: false // Permitir que o gráfico ajuste sua altura automaticamente
             }
-        });
-    });
-</script>
+        }
+    };
 
+    // Renderizar o gráfico
+    var myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+</script>
+ 
+  
 	
 {% endblock %}

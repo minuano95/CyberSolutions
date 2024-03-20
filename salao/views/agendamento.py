@@ -22,12 +22,12 @@ def index(request):
 def agenda_view(request):
     if request.method == 'POST' and 'selected_date' in request.POST:
         selected_date = request.POST.get('selected_date')
-        agendamentos = Agendamento.objects.filter(status=False, data_inicio__date=selected_date).order_by('data_inicio')
+        agendamentos = Agendamento.objects.filter(data_inicio__date=selected_date).order_by('data_inicio')
         print(len(agendamentos))  # Para verificar o número de agendamentos filtrados
 
         return render(request, 'salao/agenda/agenda.html', {'agendamentos': agendamentos})
     else:
-        agendamentos = Agendamento.objects.filter(status=False).order_by('data_inicio')
+        agendamentos = Agendamento.objects.order_by('data_inicio')
         print(len(agendamentos))  # Para verificar o número de todos os agendamentos
 
         return render(request, 'salao/agenda/agenda.html', {'agendamentos': agendamentos})
@@ -38,7 +38,6 @@ def novo_agendamento(request):
     if request.method == 'POST':
         form = AgendamentoForm(request.POST)
         if form.is_valid():
-            print(form.cleaned_data)
             data_inicio = form.cleaned_data['data_inicio']
             data_final = form.cleaned_data['data_final']
             funcionario = form.cleaned_data['funcionario']
@@ -90,8 +89,11 @@ def edita_agendamento(request, agendamento_id):
 @login_required(login_url='/salao/login/')
 def deleta_agendamento(request, agendamento_id):
     agendamento = get_object_or_404(Agendamento, pk=agendamento_id)
-    agendamento.status = True
-    agendamento.save()
+    agendamento.delete()
+
+    financeiro = get_object_or_404(Financeiro, agendamento_id=agendamento_id)
+    if financeiro is not None:
+        financeiro.delete()
     return redirect('salao:agenda')
 
 
@@ -108,11 +110,12 @@ def atualiza_agendamento(request, agendamento_id):
             descricao = f'{agendamento.id} | {agendamento.titulo} | {agendamento.cliente} | {agendamento.funcionario}',
             is_agendamento = True,
             id_agendamento = agendamento_id,
+            is_pagamento = False,
+            id_funcionario = '',
             data = datetime.now()       
         )
         
         novo_registro_financeiro.save()
-        print('Registro salvo')
         
         return redirect('salao:agendamentos_concluidos')
     return redirect('salao:agenda')

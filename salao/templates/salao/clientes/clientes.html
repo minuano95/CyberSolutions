@@ -34,12 +34,12 @@
 							<td>{{ cliente.nome }}</td>
 							<td>{{ cliente.telefone }}</td>
 							<td>{{ cliente.email }}</td>
-							<td class="editar-cliente" style="color: #136fe8;">
+							<td class="editar-cliente" style="color: #36A2EB;">
 								<a href="{% url 'salao:edita_cliente' cliente.id %}">
 									Editar
 								</a>
 							</td>
-							<td class="excluir-cliente" style="color: #136fe8;">
+							<td class="excluir-cliente" style="color: #36A2EB;">
 								<a href="{% url 'salao:exclui_cliente' cliente.id %}">Excluir</a>
 							</td>
 						</tr>

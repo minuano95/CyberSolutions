@@ -4,11 +4,12 @@
 {% block page_name %}Editar Funcionário{% endblock %}
 
 {% block header %}
-<link rel="stylesheet" href="{% static 'salao/css/funcionarios/editar_funcionario.css' %}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="{% static 'salao/css/funcionarios/editar_funcionario.css' %}">
 <script>
     function redirecionarParaPagina() {
         window.location.href = '/salao/funcionarios/';
@@ -18,24 +19,150 @@
 
 {% block content %}
 <div class="card">
-    <form action="{% url 'salao:edita_funcionario' funcionario.id %}" method="POST">
-        {% csrf_token %}
-        <h1 class="titulo">Editar Funcionário</h1>
+        <div class="data-funcionario">
+            <div class="graphs-funcionario">
+                <div class="pieChart1">
+                    <canvas id="myPieChart" width="40%" height="100%"></canvas>
+                </div>
+
+                <div class="pieChart2">
+                    <canvas id="myPieChart2" width="40%" height="100%"></canvas>
+                </div>
+            </div>
+
+            <div class="tabela-agendamentos">
+                <table class="table table-striped" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Cliente</th>
+                            <th>Funcionário</th>
+                            <th>Preço</th>
+                            <th>Data</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {%for agendamento in agendamentos %}
+                        <tr class="agendamento-item" data-agendamento-staus="{{ funcionario.staus }}">
+                            <td>{{ agendamento.titulo }}</td>
+                            <td>{{ agendamento.cliente }}</td>
+                            <td>{{ agendamento.funcionario }}</td>
+                            <td>{{ agendamento.preco }}</td>
+                            <td>{{ agendamento.data_inicio }}</td>
+                            <td class="editar-agendamento" style="color: #36A2EB;">
+                                <a href="{% url 'salao:edita_agendamento' agendamento.id %}">
+                                    Editar
+                                </a>
+                            </td>
+                            <td class="excluir-agendamento" style="color: #36A2EB;">
+                                <a href="{% url 'salao:deleta_agendamento_funcionario' agendamento.id %}">Excluir</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                {%for agendamento in agendamentos %}
+					<div class="card-agendamento">
+						<p class="description">{{ agendamento.titulo }}</p>
+						<p class="description" style="color: #7a7a7a">{{ agendamento.titulo }}</p>
+						<p class="description" style="color: #7a7a7a">{{ agendamento.cliente }}</p>
+						<p class="description" style="color: #7a7a7a">{{ agendamento.funcionario }}</p>
+						<p class="description" style="color: #7a7a7a">{{ agendamento.preco }}</p>
+						<p class="description" style="color: #7a7a7a">{{ agendamento.data_inicio }}</p>
+						<span class="editar-agendamento" data-agendamento-id="{{ agendamento.id }}"><a href="{% url 'salao:edita_agendamento' funcionario.id %}">Editar</a></span>
+						<span class="cancelar-agendamento"><a href="{% url 'salao:deleta_agendamento_funcionario' agendamento.id %}">Excluir</a></span>
+
+					</div>
+				{%endfor%}
+
+            </div>
+        </div>
         
-        {% for field in form %}
+        <div class="form-funcionario">
+            <form action="{% url 'salao:edita_funcionario' funcionario.id %}" method="POST">
+                {% csrf_token %}
+            {% comment %} <h1 class="titulo">Editar Funcionário</h1> {% endcomment %}
+            
+            {% for field in form %}
             <div class="form-group">
                 <label for="{{ field.id_for_label }}"  style="display: block; {% if field.id_for_label == id_status %}display: flex;{% endif %}">{{ field.label }}</label>
                 {{ field }}
                 {% if field.errors %}
-                    <span class="error">{{ field.errors.as_text }}</span>
+                <span class="error">{{ field.errors.as_text }}</span>
                 {% endif %}
             </div>
-        {% endfor %}
-        
-        <div class="button-container">
-            <button type="submit" class="adiciona">Editar</button>
-            <button type="button" class="cancela" onclick="redirecionarParaPagina();">Cancelar</button>
-        </div>
-    </form>
+            {% endfor %}
+            
+            <div class="button-container">
+                <button type="submit" class="adiciona">Editar</button>
+                <button type="button" class="cancela" onclick="redirecionarParaPagina();">Cancelar</button>
+            </div>
+        </form>
+    </div>
 </div>
+
+<script>
+    console.log({{agendamentos_count}})
+    // Data for the pie chart
+    var data = {
+        labels: ["Agendamentos",],
+        datasets: [{
+            data: [{{agendamentos_count}},],
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.7)',
+            ],
+            borderWidth: 1
+        }]
+    };
+
+    // Configuration options
+    var options = {
+        responsive: true,
+        maintainAspectRatio: false,
+    };
+
+    // Get the context of the canvas element we want to select
+    var ctx = document.getElementById("myPieChart").getContext('2d');
+
+    // Create the pie chart
+    var myPieChart = new Chart(ctx, {
+        type: 'pie',
+        data: data,
+        options: options
+    });
+</script>
+
+<script>
+    // Data for the pie chart
+    var data = {
+        labels: ["Pizza", "Burger",],
+        datasets: [{
+            data: [300, 200,],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.7)',
+                'rgba(54, 162, 235, 0.7)',
+            ],
+            borderWidth: 1
+        }]
+    };
+
+    // Configuration options
+    var options = {
+        responsive: true,
+        maintainAspectRatio: false,
+    };
+
+    // Get the context of the canvas element we want to select
+    var ctx = document.getElementById("myPieChart2").getContext('2d');
+
+    // Create the pie chart
+    var myPieChart = new Chart(ctx, {
+        type: 'pie',
+        data: data,
+        options: options
+    });
+</script>
 {%endblock%}

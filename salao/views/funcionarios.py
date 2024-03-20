@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
-from ..models import Cliente, Agendamento, Funcionario
+from ..models import Agendamento, Funcionario, Financeiro
 from ..forms import AgendamentoForm, FuncionarioForm
 
 @login_required(login_url='/salao/login/')
@@ -43,18 +43,24 @@ def edita_funcionario(request, funcionario_id):
     as indicated by the `@login_required` decorator.
     """   
     funcionario = get_object_or_404(Funcionario, pk=funcionario_id)
-    # agendamentos = Agendamento.objects.filter(funcionario=funcionario_id)    
+    agendamentos = Agendamento.objects.filter(funcionario=funcionario_id)    
+    agendamentos_count = agendamentos.count()
 
     if request.method == 'POST':
         form = FuncionarioForm(request.POST, instance=funcionario)
-        print(type(form))
         if form.is_valid():
             form.save()
             return redirect('salao:funcionarios')
     else:
         form = FuncionarioForm(instance=funcionario)  # Preencha o formulário 
-        
-    return render(request, 'salao/funcionarios/editar_funcionario.html', {'funcionario': funcionario, 'form': form})            
+
+    context = {
+        'funcionario': funcionario, 
+        'form': form, 
+        'agendamentos': agendamentos,
+        'agendamentos_count': agendamentos_count,
+    }
+    return render(request, 'salao/funcionarios/editar_funcionario.html', context=context)            
     
 @login_required(login_url='/salao/login/')
 def adiciona_funcionario(request):
@@ -110,3 +116,18 @@ def exclui_funcionario(request, funcionario_id):
     funcionario.save()
     
     return redirect('salao:funcionarios')
+
+
+@login_required(login_url='/salao/login/')
+def deleta_agendamento_funcionario(request, agendamento_id):
+    agendamento = get_object_or_404(Agendamento, pk=agendamento_id)
+    funcionario_id = agendamento.funcionario.id  # Obtém o ID do funcionário associado ao agendamento
+    agendamento.delete()
+
+    financeiro = get_object_or_404(Financeiro, agendamento_id=agendamento_id)
+    if financeiro is not None:
+        financeiro.delete()
+    # Constrói a URL para a página de edição do funcionário
+    url = reverse('salao:edita_funcionario', args=[funcionario_id])
+    return redirect(url)
+    

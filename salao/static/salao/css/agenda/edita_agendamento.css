@@ -51,7 +51,7 @@ form input[type="datetime-local"] {
 }
 
 form button {
-    background-color: #136fe8;
+    background-color: #36A2EB;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -65,7 +65,7 @@ form button:hover {
 }
 
 .fecharForm {
-    background-color: #e81313;
+    background-color: #FF6384;
     color: white;
 }
 
@@ -93,13 +93,13 @@ form button:hover {
 
 /* Estilos específicos para o botão "Adicionar" */
 .adiciona {
-    background-color: #136fe8;
+    background-color: #36A2EB;
     color: #fff;
 }
 
 /* Estilos específicos para o botão "Cancelar" */
 .cancela {
-    background-color: #e81313;
+    background-color: #FF6384;
     color: #fff;
 }
 

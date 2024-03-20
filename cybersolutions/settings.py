@@ -11,7 +11,11 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 import os
+import logging
 from pathlib import Path
+from datetime import datetime
+from django.urls import resolve
+from django.utils.log import AdminEmailHandler
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -85,11 +89,108 @@ DATABASES = {
         'ENGINE': 'mysql.connector.django',
         'NAME': 'cybersolutions',
         'USER': 'minuano95',
-        'PASSWORD': 'Ruizdesangue00.',
-        'HOST': '18.231.73.132',
+        'PASSWORD': '11223344',
+        'HOST': '18.228.46.31',
         'PORT': '3306'
-    }
+    }       
 }
+
+
+class SpecialFilter(logging.Filter):
+    def __init__(self, foo=None):
+        self.foo = foo
+
+    def filter(self, record):
+        if hasattr(record, 'foo'):
+            return record.foo == self.foo if self.foo else True
+        else:
+            return True  # If 'foo' attribute is not present, accept the record
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": "{levelname} {asctime} {module} {process:d} {thread:d} {message}",
+            "style": "{",
+        },
+        "simple": {
+            "format": "{levelname} {message}",
+            "style": "{",
+        },
+    },
+    "filters": {
+        "special": {
+            "()": SpecialFilter,  # Aqui usamos a classe definida neste arquivo
+            "foo": "bar",
+        },
+        "require_debug_true": {
+            "()": "django.utils.log.RequireDebugTrue",
+        },
+    },
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": os.path.join(BASE_DIR, 'logs', 'django.log'),
+            "formatter": "verbose",
+        },
+        "console": {
+            "level": "INFO",
+            "filters": ["require_debug_true"],
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+        },
+        "mail_admins": {
+            "level": "ERROR",
+            "class": "django.utils.log.AdminEmailHandler",
+            "filters": ["special"],
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["file", "console"],
+            "propagate": True,
+        },
+        "django.request": {
+            "handlers": ["file", "mail_admins"],
+            "level": "ERROR",
+            "propagate": False,
+        },
+        "cybersolutions.custom": {
+            "handlers": ["file", "console", "mail_admins"],
+            "level": "INFO",
+            "filters": ["special"],
+        },
+    },
+}
+
+# Define a classe de filtro personalizado
+class IgnoreAdminUrls(logging.Filter):
+    def filter(self, record):
+        # Obtém a URL da requisição atual, se estiver disponível
+        request = getattr(record, 'request', None)
+        if request:
+            # Obtém o caminho da URL da requisição
+            path = request.path
+            # Verifica se a URL contém '/admin/'
+            return '/admin/' not in path
+        # Se não houver informação de requisição, mantenha o registro
+        return True
+
+# Adiciona o filtro personalizado ao dicionário de filtros no LOGGING
+LOGGING['filters']['ignore_admin_urls'] = {
+    '()': IgnoreAdminUrls
+}
+
+# Atualiza os loggers relevantes para usar o filtro personalizado
+LOGGING['loggers']['django.request']['filters'] = ['ignore_admin_urls']
+LOGGING['loggers']['cybersolutions.custom']['filters'] = ['ignore_admin_urls']
+
+# Atualiza o manipulador (handler) 'mail_admins' para usar o filtro personalizado
+LOGGING['handlers']['mail_admins'].update({
+    'filters': ['ignore_admin_urls']
+})
 
 
 # Password validation

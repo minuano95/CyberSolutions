@@ -59,4 +59,6 @@ def financeiro_view(request):
                 'saldo': f'R$ {round(saldo, 2)}',
             }
 
+    print(dados_por_mes)
+    
     return render(request, 'salao/financeiro/financeiro.html', {'dados_por_mes': dados_por_mes})

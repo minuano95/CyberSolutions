@@ -1,0 +1,1003 @@
+INFO 2024-03-19 14:57:58,799 basehttp 7452 11876 "GET /admin/ HTTP/1.1" 200 9148
+WARNING 2024-03-19 14:57:58,882 basehttp 7452 11876 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 14:57:58,882 basehttp 7452 10300 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-19 14:57:59,531 basehttp 7452 10228 "GET /admin/ HTTP/1.1" 200 9148
+WARNING 2024-03-19 14:57:59,605 basehttp 7452 10228 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 14:57:59,607 basehttp 7452 8392 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:57:59,723 basehttp 7452 9856 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 14:58:06,564 basehttp 7452 9856 "GET /admin/salao/agendamento/ HTTP/1.1" 200 11219
+WARNING 2024-03-19 14:58:06,605 basehttp 7452 9676 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 14:58:06,611 basehttp 7452 9856 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 14:58:06,619 basehttp 7452 11076 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 14:58:06,627 basehttp 7452 10660 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:58:06,629 basehttp 7452 616 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 14:58:06,633 basehttp 7452 9092 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 14:58:06,641 basehttp 7452 4264 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:58:06,646 basehttp 7452 10152 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 14:58:06,650 basehttp 7452 6712 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:58:06,653 basehttp 7452 4972 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 14:58:06,666 basehttp 7452 8548 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 14:58:06,984 basehttp 7452 2564 "GET /admin/jsi18n/ HTTP/1.1" 500 122900
+INFO 2024-03-19 14:58:15,148 basehttp 7452 2564 "GET /admin/salao/agendamento/5/change/ HTTP/1.1" 200 17054
+WARNING 2024-03-19 14:58:15,270 basehttp 7452 2564 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 14:58:15,278 basehttp 7452 10368 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:58:15,302 basehttp 7452 10912 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 14:58:15,330 basehttp 7452 12252 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 404 1864
+WARNING 2024-03-19 14:58:15,362 basehttp 7452 10248 "GET /static/admin/js/calendar.js HTTP/1.1" 404 1819
+WARNING 2024-03-19 14:58:15,369 basehttp 7452 7692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:58:15,386 basehttp 7452 11568 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 14:58:15,419 basehttp 7452 11140 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 14:58:15,430 basehttp 7452 10444 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 14:58:15,437 basehttp 7452 2540 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 14:58:15,440 basehttp 7452 6908 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 14:58:15,453 basehttp 7452 1096 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 14:58:15,453 basehttp 7452 8928 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 1843
+INFO 2024-03-19 14:58:15,465 basehttp 7452 10824 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-03-19 14:58:15,469 basehttp 7452 10824 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+WARNING 2024-03-19 14:58:15,494 basehttp 7452 10824 "GET /static/admin/js/change_form.js HTTP/1.1" 404 1828
+ERROR 2024-03-19 14:58:15,812 basehttp 7452 11128 "GET /admin/jsi18n/ HTTP/1.1" 500 122909
+INFO 2024-03-19 14:58:40,201 autoreload 7452 11484 C:\Users\Joao\Desktop\CyberSolutions\cybersolutions\settings.py changed, reloading.
+INFO 2024-03-19 14:58:41,079 autoreload 11740 10360 Watching for file changes with StatReloader
+INFO 2024-03-19 14:58:44,602 basehttp 11740 1292 "POST /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 302 0
+INFO 2024-03-19 14:58:44,892 basehttp 11740 1292 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-19 14:58:45,031 basehttp 11740 1292 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 304 0
+INFO 2024-03-19 15:49:40,549 autoreload 10996 5772 Watching for file changes with StatReloader
+INFO 2024-03-19 15:49:43,469 basehttp 10996 9448 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 12618
+INFO 2024-03-19 15:49:43,623 basehttp 10996 9448 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 15:49:43,626 basehttp 10996 11068 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-19 15:49:43,978 basehttp 10996 11068 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:49:47,095 basehttp 10996 11068 "GET /salao/agenda/deleta_agendamento/3/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:49:47,510 basehttp 10996 11068 "GET /salao/agenda/ HTTP/1.1" 200 19346
+INFO 2024-03-19 15:49:51,878 basehttp 10996 11068 "GET /salao/agenda/ HTTP/1.1" 200 19346
+INFO 2024-03-19 15:49:54,080 basehttp 10996 11068 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-19 15:49:54,119 basehttp 10996 11068 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 304 0
+INFO 2024-03-19 15:49:56,349 basehttp 10996 11068 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 12618
+INFO 2024-03-19 15:49:59,790 basehttp 10996 11068 "GET /salao/agenda/deleta_agendamento/3/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:50:00,219 basehttp 10996 11068 "GET /salao/agenda/ HTTP/1.1" 200 19346
+INFO 2024-03-19 15:50:07,448 basehttp 10996 11068 "GET /salao/agenda/deleta_agendamento/3/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:50:07,862 basehttp 10996 11068 "GET /salao/agenda/ HTTP/1.1" 200 19346
+INFO 2024-03-19 15:51:19,596 basehttp 10996 11068 "GET /salao/agenda/deleta_agendamento/3/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:51:20,004 basehttp 10996 11068 "GET /salao/agenda/ HTTP/1.1" 200 19346
+INFO 2024-03-19 15:51:23,166 basehttp 10996 11068 "GET /salao/agenda/ HTTP/1.1" 200 19346
+INFO 2024-03-19 15:51:38,333 basehttp 10996 11068 "GET /admin/ HTTP/1.1" 200 9148
+WARNING 2024-03-19 15:51:38,405 basehttp 10996 11068 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 15:51:38,405 basehttp 10996 9448 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-19 15:51:39,126 basehttp 10996 10832 "GET /admin/ HTTP/1.1" 200 9148
+WARNING 2024-03-19 15:51:39,199 basehttp 10996 10832 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 15:51:39,199 basehttp 10996 10184 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 15:51:39,297 basehttp 10996 4588 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 15:51:42,616 basehttp 10996 4588 "GET /admin/salao/agendamento/ HTTP/1.1" 200 11219
+WARNING 2024-03-19 15:51:42,660 basehttp 10996 4588 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 15:51:42,665 basehttp 10996 6780 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 15:51:42,680 basehttp 10996 10708 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 15:51:42,690 basehttp 10996 9748 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 15:51:42,692 basehttp 10996 9916 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 15:51:42,696 basehttp 10996 10024 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 15:51:42,707 basehttp 10996 11064 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 15:51:42,713 basehttp 10996 6188 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 15:51:42,716 basehttp 10996 9308 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 15:51:42,721 basehttp 10996 4260 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 15:51:42,736 basehttp 10996 11620 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 15:51:43,069 basehttp 10996 10368 "GET /admin/jsi18n/ HTTP/1.1" 500 122900
+INFO 2024-03-19 15:51:44,609 basehttp 10996 10368 "GET /admin/salao/agendamento/3/change/ HTTP/1.1" 200 17071
+WARNING 2024-03-19 15:51:44,663 basehttp 10996 6160 "GET /static/admin/js/calendar.js HTTP/1.1" 404 1819
+WARNING 2024-03-19 15:51:44,666 basehttp 10996 10368 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 15:51:44,694 basehttp 10996 9804 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 15:51:44,694 basehttp 10996 10612 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 404 1864
+WARNING 2024-03-19 15:51:44,698 basehttp 10996 11816 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 15:51:44,704 basehttp 10996 10488 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+INFO 2024-03-19 15:51:44,706 basehttp 10996 10384 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+WARNING 2024-03-19 15:51:44,708 basehttp 10996 8708 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 15:51:44,731 basehttp 10996 9664 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 15:51:44,736 basehttp 10996 10980 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 1843
+WARNING 2024-03-19 15:51:44,737 basehttp 10996 4752 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 15:51:44,741 basehttp 10996 10384 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 15:51:44,756 basehttp 10996 2328 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 15:51:44,783 basehttp 10996 11700 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-19 15:51:44,797 basehttp 10996 10588 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+WARNING 2024-03-19 15:51:44,807 basehttp 10996 10588 "GET /static/admin/js/change_form.js HTTP/1.1" 404 1828
+ERROR 2024-03-19 15:51:45,061 basehttp 10996 12136 "GET /admin/jsi18n/ HTTP/1.1" 500 122909
+INFO 2024-03-19 15:52:12,844 autoreload 10996 5772 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:52:13,785 autoreload 10700 5968 Watching for file changes with StatReloader
+INFO 2024-03-19 15:52:15,832 basehttp 10700 9028 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 11719
+INFO 2024-03-19 15:52:15,913 basehttp 10700 9028 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 15:52:15,916 basehttp 10700 11052 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-19 15:52:15,939 basehttp 10700 11416 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:52:15,946 basehttp 10700 10560 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 15:52:16,288 basehttp 10700 11416 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:52:17,460 basehttp 10700 11416 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 11719
+INFO 2024-03-19 15:52:17,506 basehttp 10700 11416 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 15:52:17,508 basehttp 10700 10560 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 15:52:17,512 basehttp 10700 11052 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-19 15:52:17,514 basehttp 10700 9028 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:52:17,782 basehttp 10700 9028 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:53:15,514 autoreload 10700 5968 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 15:53:16,468 autoreload 4108 6260 Watching for file changes with StatReloader
+INFO 2024-03-19 15:53:21,031 autoreload 4108 6260 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 15:53:21,999 autoreload 8676 7716 Watching for file changes with StatReloader
+INFO 2024-03-19 15:53:23,927 basehttp 8676 11884 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 11719
+INFO 2024-03-19 15:53:24,020 basehttp 8676 11884 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 15:53:24,024 basehttp 8676 1412 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 15:53:24,026 basehttp 8676 8288 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:53:24,083 basehttp 8676 11208 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-19 15:53:24,392 basehttp 8676 11208 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:53:27,585 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:27,815 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:28,053 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:28,290 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:28,523 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:28,750 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:28,980 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:29,210 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:29,441 basehttp 8676 11208 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:29,726 basehttp 8676 11208 - Broken pipe from ('127.0.0.1', 62029)
+INFO 2024-03-19 15:53:30,024 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:30,322 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:30,628 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:30,862 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:31,144 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:31,368 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:31,650 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:31,879 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:32,118 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:32,397 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:32,686 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:32,908 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:33,128 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:33,427 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:33,664 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:33,904 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:34,207 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:34,503 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:34,743 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:34,969 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:36,248 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:36,477 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:36,700 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:36,999 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:37,228 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:37,463 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:37,690 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:37,914 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:38,193 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:38,423 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:38,650 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:38,940 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:39,163 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:39,389 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:39,676 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:39,979 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:40,202 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:40,445 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:40,749 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:40,989 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:46,223 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:46,512 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:46,813 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:47,053 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:47,339 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:47,584 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:47,847 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:48,141 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:48,372 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:48,672 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:48,899 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:49,183 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:49,466 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:49,747 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:50,036 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:53:50,268 basehttp 8676 8288 "GET /salao/agenda/deleta_agendamento/5/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:54:16,686 autoreload 11588 8632 Watching for file changes with StatReloader
+INFO 2024-03-19 15:54:17,593 basehttp 11588 8616 "GET /salao/ HTTP/1.1" 200 3321
+INFO 2024-03-19 15:54:17,712 basehttp 11588 10804 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 15:54:17,713 basehttp 11588 8616 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 15:54:17,727 basehttp 11588 4128 "GET /static/salao/css/home.css HTTP/1.1" 200 0
+INFO 2024-03-19 15:54:17,774 basehttp 11588 9140 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:54:17,777 basehttp 11588 9028 "GET /static/salao/js/home.js HTTP/1.1" 200 0
+INFO 2024-03-19 15:54:18,009 basehttp 11588 9140 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:54:20,528 basehttp 11588 9140 "GET /salao/financeiro/ HTTP/1.1" 200 6920
+INFO 2024-03-19 15:54:20,578 basehttp 11588 9140 "GET /static/salao/css/financeiro/financeiro.css HTTP/1.1" 200 2361
+INFO 2024-03-19 15:54:20,578 basehttp 11588 9028 "GET /static/salao/js/financeiro/financeiro.js HTTP/1.1" 200 0
+INFO 2024-03-19 15:54:21,573 basehttp 11588 9140 "GET /salao/clientes/ HTTP/1.1" 200 4895
+INFO 2024-03-19 15:54:21,618 basehttp 11588 9140 "GET /static/salao/css/clientes/clientes.css HTTP/1.1" 304 0
+WARNING 2024-03-19 15:54:21,633 basehttp 11588 9028 "GET /static/salao/js/clientes/clientes.js HTTP/1.1" 404 1846
+INFO 2024-03-19 15:54:23,448 basehttp 11588 9140 "GET /salao/clientes/edita_cliente/1/ HTTP/1.1" 200 6004
+INFO 2024-03-19 15:54:23,509 basehttp 11588 9140 "GET /static/salao/css/clientes/editar_cliente.css HTTP/1.1" 304 0
+INFO 2024-03-19 15:54:26,715 basehttp 11588 9140 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-19 15:54:28,222 basehttp 11588 9140 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 10824
+INFO 2024-03-19 15:54:35,995 basehttp 11588 9140 "GET /salao/agenda/deleta_agendamento/4/ HTTP/1.1" 302 0
+INFO 2024-03-19 15:54:36,392 basehttp 11588 9140 "GET /salao/agenda/ HTTP/1.1" 200 16966
+INFO 2024-03-19 15:55:07,157 basehttp 11588 9140 "GET /salao/agenda/ HTTP/1.1" 200 16966
+INFO 2024-03-19 15:55:10,079 basehttp 11588 9140 "GET /salao/agenda/ HTTP/1.1" 200 16966
+INFO 2024-03-19 15:55:19,575 autoreload 11588 8632 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 15:55:20,446 autoreload 10660 9056 Watching for file changes with StatReloader
+INFO 2024-03-19 15:55:22,447 autoreload 10660 9056 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 15:55:23,381 autoreload 9992 9984 Watching for file changes with StatReloader
+INFO 2024-03-19 15:55:29,824 autoreload 9992 9984 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:55:30,656 autoreload 10972 9860 Watching for file changes with StatReloader
+INFO 2024-03-19 15:55:33,781 autoreload 10972 9860 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:55:34,700 autoreload 1096 11944 Watching for file changes with StatReloader
+INFO 2024-03-19 15:57:32,272 autoreload 1096 11944 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:57:33,111 autoreload 10180 6324 Watching for file changes with StatReloader
+INFO 2024-03-19 15:57:39,510 autoreload 10180 6324 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:57:40,383 autoreload 10892 11336 Watching for file changes with StatReloader
+INFO 2024-03-19 15:57:42,408 autoreload 10892 11336 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:57:43,238 autoreload 7424 8896 Watching for file changes with StatReloader
+INFO 2024-03-19 15:57:47,373 autoreload 7424 8896 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:57:48,283 autoreload 6112 11352 Watching for file changes with StatReloader
+INFO 2024-03-19 15:57:51,329 autoreload 6112 11352 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:57:52,164 autoreload 10288 11536 Watching for file changes with StatReloader
+INFO 2024-03-19 15:57:54,119 autoreload 10288 11536 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:57:54,997 autoreload 5280 5452 Watching for file changes with StatReloader
+INFO 2024-03-19 15:58:08,062 autoreload 5280 5452 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:58:08,912 autoreload 1272 1288 Watching for file changes with StatReloader
+INFO 2024-03-19 15:58:17,561 autoreload 1272 1288 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:58:18,394 autoreload 3632 8840 Watching for file changes with StatReloader
+INFO 2024-03-19 15:58:21,488 autoreload 3632 8840 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:58:22,294 autoreload 9284 8620 Watching for file changes with StatReloader
+INFO 2024-03-19 15:58:24,263 autoreload 9284 8620 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:58:25,048 autoreload 11872 10328 Watching for file changes with StatReloader
+INFO 2024-03-19 15:58:37,456 basehttp 11872 8816 "GET /salao/agenda/ HTTP/1.1" 200 16966
+INFO 2024-03-19 15:58:37,558 basehttp 11872 8816 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 15:58:37,562 basehttp 11872 11664 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 15:58:37,578 basehttp 11872 4404 "GET /static/salao/css/agenda/agenda.css HTTP/1.1" 200 8329
+INFO 2024-03-19 15:58:37,580 basehttp 11872 11168 "GET /static/salao/js/agenda/agenda.js HTTP/1.1" 200 436
+INFO 2024-03-19 15:58:37,593 basehttp 11872 6740 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:58:37,934 basehttp 11872 6740 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 15:58:41,987 basehttp 11872 6740 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+ERROR 2024-03-19 15:58:43,494 log 11872 6740 Internal Server Error: /salao/funcionarios/edita_funcionario/1/
+Traceback (most recent call last):
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py", line 63, in edita_funcionario
+    return render(request, 'salao/funcionarios/editar_funcionario.html', context=context)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleta_agendamento_funcionario' with arguments '(1,)' not found. 1 pattern(s) tried: ['salao/funcionarios/deleta_agendamento_funcionario/\\Z']
+ERROR 2024-03-19 15:58:43,522 basehttp 11872 6740 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 500 183080
+WARNING 2024-03-19 15:58:43,792 basehttp 11872 6740 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 15:58:57,722 autoreload 11872 10328 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:58:58,648 autoreload 9732 9944 Watching for file changes with StatReloader
+INFO 2024-03-19 15:59:00,628 autoreload 9732 9944 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 15:59:01,598 autoreload 8840 3632 Watching for file changes with StatReloader
+INFO 2024-03-19 15:59:19,424 autoreload 8840 3632 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:59:20,323 autoreload 11720 9136 Watching for file changes with StatReloader
+INFO 2024-03-19 15:59:22,332 autoreload 11720 9136 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:59:23,186 autoreload 4256 6648 Watching for file changes with StatReloader
+INFO 2024-03-19 15:59:25,139 autoreload 4256 6648 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:59:25,904 autoreload 3260 11096 Watching for file changes with StatReloader
+INFO 2024-03-19 15:59:36,665 autoreload 3260 11096 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 15:59:37,495 autoreload 9640 7092 Watching for file changes with StatReloader
+INFO 2024-03-19 15:59:58,224 autoreload 5832 11568 Watching for file changes with StatReloader
+INFO 2024-03-19 16:04:25,656 autoreload 9388 10856 Watching for file changes with StatReloader
+INFO 2024-03-19 16:04:31,536 basehttp 9388 10292 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 9967
+INFO 2024-03-19 16:04:35,171 basehttp 9388 10292 "GET /salao/funcionarios/deleta_agendamento_funcionario/2/ HTTP/1.1" 302 0
+INFO 2024-03-19 16:04:35,498 basehttp 9388 10292 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 9048
+INFO 2024-03-19 16:07:06,995 basehttp 9388 10292 "GET /admin/salao/agendamento/ HTTP/1.1" 200 11219
+INFO 2024-03-19 16:07:07,092 basehttp 9388 7632 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-19 16:07:07,108 basehttp 9388 10292 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-19 16:07:07,115 basehttp 9388 12260 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-19 16:07:07,121 basehttp 9388 6336 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+WARNING 2024-03-19 16:07:07,139 basehttp 9388 7632 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:07:07,143 basehttp 9388 10292 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:07,158 basehttp 9388 6336 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:07:07,158 basehttp 9388 12260 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+INFO 2024-03-19 16:07:07,170 basehttp 9388 5736 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+WARNING 2024-03-19 16:07:07,176 basehttp 9388 3052 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:07:07,179 basehttp 9388 12088 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:07:07,179 basehttp 9388 112 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:07,179 basehttp 9388 3968 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:07:07,189 basehttp 9388 5736 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:07:07,199 basehttp 9388 2952 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:07,210 basehttp 9388 11688 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:07:07,380 basehttp 9388 9528 "GET /admin/jsi18n/ HTTP/1.1" 500 123165
+INFO 2024-03-19 16:07:07,393 basehttp 9388 9528 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-19 16:07:07,394 basehttp 9388 9228 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2024-03-19 16:07:07,430 basehttp 9388 9228 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 16:07:20,230 basehttp 9388 9228 "GET /admin/salao/agendamento/ HTTP/1.1" 200 11219
+INFO 2024-03-19 16:07:20,260 basehttp 9388 9228 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-19 16:07:20,261 basehttp 9388 9528 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-19 16:07:20,278 basehttp 9388 4392 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+WARNING 2024-03-19 16:07:20,283 basehttp 9388 9228 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+INFO 2024-03-19 16:07:20,285 basehttp 9388 4416 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+WARNING 2024-03-19 16:07:20,290 basehttp 9388 9528 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+INFO 2024-03-19 16:07:20,291 basehttp 9388 3260 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+WARNING 2024-03-19 16:07:20,303 basehttp 9388 4392 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:07:20,311 basehttp 9388 10208 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:07:20,319 basehttp 9388 3260 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:07:20,324 basehttp 9388 4416 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:07:20,329 basehttp 9388 76 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:20,331 basehttp 9388 10640 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:07:20,346 basehttp 9388 10400 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:07:20,362 basehttp 9388 9896 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:20,390 basehttp 9388 7192 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:07:20,672 basehttp 9388 4288 "GET /admin/jsi18n/ HTTP/1.1" 500 123165
+INFO 2024-03-19 16:07:20,688 basehttp 9388 4288 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-19 16:07:20,695 basehttp 9388 11640 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2024-03-19 16:07:20,729 basehttp 9388 11640 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 16:07:21,902 basehttp 9388 11640 "GET /admin/salao/agendamento/3/change/ HTTP/1.1" 200 17071
+WARNING 2024-03-19 16:07:21,929 basehttp 9388 11640 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:07:21,954 basehttp 9388 4288 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:07:21,956 basehttp 9388 8728 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:07:21,969 basehttp 9388 1596 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:07:21,972 basehttp 9388 588 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:07:21,975 basehttp 9388 9848 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 404 1864
+WARNING 2024-03-19 16:07:21,986 basehttp 9388 3804 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:21,992 basehttp 9388 6152 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:07:21,997 basehttp 9388 11096 "GET /static/admin/js/calendar.js HTTP/1.1" 404 1819
+WARNING 2024-03-19 16:07:22,012 basehttp 9388 4692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:22,025 basehttp 9388 7724 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:07:22,032 basehttp 9388 5000 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 1843
+WARNING 2024-03-19 16:07:22,032 basehttp 9388 10160 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:22,068 basehttp 9388 9752 "GET /static/admin/js/change_form.js HTTP/1.1" 404 1828
+ERROR 2024-03-19 16:07:22,311 basehttp 9388 12096 "GET /admin/jsi18n/ HTTP/1.1" 500 122909
+INFO 2024-03-19 16:07:24,544 basehttp 9388 12096 "GET /admin/salao/agendamento/ HTTP/1.1" 200 11219
+WARNING 2024-03-19 16:07:24,589 basehttp 9388 12096 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:24,589 basehttp 9388 6320 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:07:24,604 basehttp 9388 8024 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:07:24,611 basehttp 9388 9676 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:07:24,615 basehttp 9388 11284 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:24,621 basehttp 9388 11248 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:07:24,623 basehttp 9388 11932 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:07:24,628 basehttp 9388 10860 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+INFO 2024-03-19 16:07:44,687 autoreload 9388 10856 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:07:45,500 autoreload 7664 7836 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:01,859 autoreload 7664 7836 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:08:02,940 autoreload 10192 10084 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:04,974 autoreload 10192 10084 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:08:05,831 autoreload 10640 10400 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:09,981 autoreload 10640 10400 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:08:10,807 autoreload 9416 9892 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:12,731 autoreload 9416 9892 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:08:13,583 autoreload 7804 11204 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:17,780 autoreload 7804 11204 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:08:18,607 autoreload 3256 11792 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:21,684 autoreload 3256 11792 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:08:22,814 autoreload 9944 10212 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:30,411 autoreload 9944 10212 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:08:31,306 autoreload 5580 9596 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:33,254 autoreload 5580 9596 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:08:34,186 autoreload 11668 11452 Watching for file changes with StatReloader
+INFO 2024-03-19 16:08:37,129 basehttp 11668 6068 "GET /admin/salao/agendamento/ HTTP/1.1" 200 11219
+INFO 2024-03-19 16:08:37,230 basehttp 11668 6068 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+WARNING 2024-03-19 16:08:37,239 basehttp 11668 9156 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+INFO 2024-03-19 16:08:37,240 basehttp 11668 7832 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-19 16:08:37,240 basehttp 11668 6068 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+WARNING 2024-03-19 16:08:37,264 basehttp 11668 6068 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:08:37,264 basehttp 11668 7832 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+INFO 2024-03-19 16:08:37,264 basehttp 11668 9764 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+WARNING 2024-03-19 16:08:37,276 basehttp 11668 7816 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+INFO 2024-03-19 16:08:37,277 basehttp 11668 9440 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+WARNING 2024-03-19 16:08:37,294 basehttp 11668 9764 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:08:37,297 basehttp 11668 10056 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:08:37,331 basehttp 11668 3708 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:08:37,333 basehttp 11668 2584 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:08:37,389 basehttp 11668 9440 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:08:37,454 basehttp 11668 9480 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:08:37,488 basehttp 11668 2864 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:08:37,560 basehttp 11668 6780 "GET /admin/jsi18n/ HTTP/1.1" 500 123165
+INFO 2024-03-19 16:08:37,576 basehttp 11668 6780 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-19 16:08:37,580 basehttp 11668 10108 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2024-03-19 16:08:37,607 basehttp 11668 10108 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 16:08:38,777 basehttp 11668 10108 "GET /admin/salao/agendamento/2/change/ HTTP/1.1" 200 17090
+WARNING 2024-03-19 16:08:38,818 basehttp 11668 10108 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:08:38,822 basehttp 11668 6780 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:08:38,840 basehttp 11668 9100 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:08:38,841 basehttp 11668 9200 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:08:38,852 basehttp 11668 1956 "GET /static/admin/js/calendar.js HTTP/1.1" 404 1819
+WARNING 2024-03-19 16:08:38,859 basehttp 11668 2268 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:08:38,860 basehttp 11668 6424 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:08:38,869 basehttp 11668 11552 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:08:38,869 basehttp 11668 9348 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:08:38,885 basehttp 11668 8344 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 404 1864
+WARNING 2024-03-19 16:08:38,893 basehttp 11668 10248 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:08:38,896 basehttp 11668 10452 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:08:38,899 basehttp 11668 8632 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 1843
+WARNING 2024-03-19 16:08:38,919 basehttp 11668 5056 "GET /static/admin/js/change_form.js HTTP/1.1" 404 1828
+ERROR 2024-03-19 16:08:39,193 basehttp 11668 7320 "GET /admin/jsi18n/ HTTP/1.1" 500 122909
+INFO 2024-03-19 16:15:48,349 basehttp 11668 8196 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 9048
+INFO 2024-03-19 16:15:48,383 basehttp 11668 8196 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 16:15:48,384 basehttp 11668 7644 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 16:15:48,402 basehttp 11668 5236 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 16:15:48,405 basehttp 11668 6592 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-19 16:15:48,805 basehttp 11668 5236 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 16:15:51,709 basehttp 11668 5236 "GET /admin/salao/agendamento/2/change/ HTTP/1.1" 302 0
+INFO 2024-03-19 16:15:51,931 basehttp 11668 5236 "GET /admin/ HTTP/1.1" 200 9323
+INFO 2024-03-19 16:15:51,990 basehttp 11668 5236 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-19 16:15:51,990 basehttp 11668 8196 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-19 16:15:51,991 basehttp 11668 7644 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-03-19 16:15:51,991 basehttp 11668 6592 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-19 16:15:52,002 basehttp 11668 10036 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+WARNING 2024-03-19 16:15:52,013 basehttp 11668 6592 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-19 16:15:52,021 basehttp 11668 7644 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-19 16:15:52,024 basehttp 11668 8196 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2024-03-19 16:15:52,055 basehttp 11668 3256 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2024-03-19 16:15:52,055 basehttp 11668 10036 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+WARNING 2024-03-19 16:15:52,107 basehttp 11668 10036 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 16:15:54,177 basehttp 11668 10036 "GET /admin/ HTTP/1.1" 200 9148
+INFO 2024-03-19 16:15:54,208 basehttp 11668 10036 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-19 16:15:54,210 basehttp 11668 7644 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-19 16:15:54,210 basehttp 11668 5236 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-03-19 16:15:54,210 basehttp 11668 8196 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-19 16:15:54,229 basehttp 11668 11792 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-03-19 16:15:54,274 basehttp 11668 7644 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-03-19 16:15:54,274 basehttp 11668 5236 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2024-03-19 16:15:54,281 basehttp 11668 11792 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:15:54,283 basehttp 11668 8196 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:15:54,333 basehttp 11668 7644 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 16:15:56,440 basehttp 11668 7644 "GET /admin/salao/agendamento/ HTTP/1.1" 200 9878
+WARNING 2024-03-19 16:15:56,474 basehttp 11668 7644 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:15:56,487 basehttp 11668 5236 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:15:56,488 basehttp 11668 10036 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:15:56,547 basehttp 11668 6068 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:15:56,582 basehttp 11668 8980 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:15:56,584 basehttp 11668 2252 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:15:56,586 basehttp 11668 9716 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:15:56,592 basehttp 11668 11776 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:15:56,592 basehttp 11668 4116 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:15:56,601 basehttp 11668 10544 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:15:56,612 basehttp 11668 10268 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:15:56,998 basehttp 11668 9420 "GET /admin/jsi18n/ HTTP/1.1" 500 122900
+INFO 2024-03-19 16:20:36,158 basehttp 11668 1572 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-19 16:20:36,188 basehttp 11668 1572 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 304 0
+INFO 2024-03-19 16:20:56,718 basehttp 11668 1572 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 9048
+INFO 2024-03-19 16:20:56,748 basehttp 11668 1572 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 304 0
+INFO 2024-03-19 16:21:16,724 autoreload 11668 11452 C:\Users\Joao\Desktop\CyberSolutions\salao\urls.py changed, reloading.
+INFO 2024-03-19 16:21:17,738 autoreload 9804 7452 Watching for file changes with StatReloader
+INFO 2024-03-19 16:24:14,194 autoreload 9804 7452 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:24:15,289 autoreload 11288 5676 Watching for file changes with StatReloader
+INFO 2024-03-19 16:24:17,293 autoreload 11288 5676 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:24:18,241 autoreload 4440 8532 Watching for file changes with StatReloader
+INFO 2024-03-19 16:24:26,466 autoreload 4440 8532 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:24:27,600 autoreload 10584 8748 Watching for file changes with StatReloader
+INFO 2024-03-19 16:24:38,922 autoreload 10584 8748 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:24:40,039 autoreload 9912 9000 Watching for file changes with StatReloader
+INFO 2024-03-19 16:24:44,708 autoreload 9912 9000 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:24:45,863 autoreload 10824 564 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:00,368 autoreload 10824 564 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:25:01,291 autoreload 10116 10140 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:03,540 autoreload 10116 10140 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:25:04,545 autoreload 10528 11732 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:06,689 autoreload 10528 11732 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:25:07,640 autoreload 4156 2232 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:09,918 autoreload 4156 2232 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:25:10,975 autoreload 8400 7092 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:18,921 autoreload 8400 7092 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:25:20,790 autoreload 7180 11948 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:23,138 autoreload 7180 11948 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:25:24,135 autoreload 10144 9308 Watching for file changes with StatReloader
+INFO 2024-03-19 16:25:37,917 autoreload 10144 9308 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:25:38,946 autoreload 10356 8704 Watching for file changes with StatReloader
+INFO 2024-03-19 16:26:02,994 autoreload 10356 8704 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:26:03,852 autoreload 12276 6188 Watching for file changes with StatReloader
+INFO 2024-03-19 16:30:42,617 basehttp 12276 11736 "GET /salao/clientes/ HTTP/1.1" 200 4895
+INFO 2024-03-19 16:30:42,664 basehttp 12276 11736 "GET /static/salao/css/clientes/clientes.css HTTP/1.1" 304 0
+WARNING 2024-03-19 16:30:42,677 basehttp 12276 10896 "GET /static/salao/js/clientes/clientes.js HTTP/1.1" 404 1846
+INFO 2024-03-19 16:30:44,188 basehttp 12276 11736 "GET /salao/agenda/ HTTP/1.1" 200 15766
+INFO 2024-03-19 16:30:44,218 basehttp 12276 11736 "GET /static/salao/css/agenda/agenda.css HTTP/1.1" 304 0
+INFO 2024-03-19 16:30:45,350 basehttp 12276 11736 "GET /salao/clientes/ HTTP/1.1" 200 4895
+WARNING 2024-03-19 16:30:45,388 basehttp 12276 11736 "GET /static/salao/js/clientes/clientes.js HTTP/1.1" 404 1846
+INFO 2024-03-19 16:30:46,484 basehttp 12276 10404 "GET /salao/clientes/edita_cliente/1/ HTTP/1.1" 200 6004
+INFO 2024-03-19 16:30:46,518 basehttp 12276 10404 "GET /static/salao/css/clientes/editar_cliente.css HTTP/1.1" 304 0
+INFO 2024-03-19 16:30:47,862 basehttp 12276 10404 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-19 16:30:49,396 basehttp 12276 10404 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 9048
+INFO 2024-03-19 16:30:49,430 basehttp 12276 10404 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 304 0
+INFO 2024-03-19 16:31:12,393 autoreload 12276 6188 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:31:13,377 autoreload 7452 2344 Watching for file changes with StatReloader
+INFO 2024-03-19 16:31:19,835 autoreload 7452 2344 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:31:20,697 autoreload 10400 6184 Watching for file changes with StatReloader
+INFO 2024-03-19 16:31:29,407 autoreload 10400 6184 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:31:30,492 autoreload 4032 4428 Watching for file changes with StatReloader
+INFO 2024-03-19 16:31:32,089 autoreload 4032 4428 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:31:32,996 autoreload 9472 9444 Watching for file changes with StatReloader
+INFO 2024-03-19 16:31:56,072 autoreload 9472 9444 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:31:57,066 autoreload 1168 10492 Watching for file changes with StatReloader
+INFO 2024-03-19 16:32:08,884 autoreload 1168 10492 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:32:09,697 autoreload 1768 10288 Watching for file changes with StatReloader
+INFO 2024-03-19 16:32:24,974 autoreload 1768 10288 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:32:25,835 autoreload 7724 7592 Watching for file changes with StatReloader
+INFO 2024-03-19 16:32:27,729 autoreload 7724 7592 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:32:28,540 autoreload 4420 11052 Watching for file changes with StatReloader
+INFO 2024-03-19 16:32:44,870 autoreload 4420 11052 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:32:45,686 autoreload 12216 10328 Watching for file changes with StatReloader
+INFO 2024-03-19 16:35:10,726 autoreload 12216 10328 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-19 16:35:11,950 autoreload 9012 10912 Watching for file changes with StatReloader
+INFO 2024-03-19 16:35:38,121 autoreload 8708 9416 Watching for file changes with StatReloader
+INFO 2024-03-19 16:35:52,403 basehttp 8708 2552 "GET /admin/ HTTP/1.1" 200 9148
+WARNING 2024-03-19 16:35:52,494 basehttp 8708 2552 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:35:52,496 basehttp 8708 10304 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-19 16:35:53,140 basehttp 8708 7044 "GET /admin/ HTTP/1.1" 200 9148
+WARNING 2024-03-19 16:35:53,218 basehttp 8708 4308 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:35:53,219 basehttp 8708 7044 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-19 16:35:55,430 basehttp 8708 3632 "GET /admin/salao/agendamento/ HTTP/1.1" 200 9878
+WARNING 2024-03-19 16:35:55,476 basehttp 8708 9976 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:35:55,485 basehttp 8708 11664 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:35:55,487 basehttp 8708 11984 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:35:55,490 basehttp 8708 2608 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:35:55,493 basehttp 8708 10036 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:35:55,507 basehttp 8708 8456 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:35:55,520 basehttp 8708 8616 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:35:55,524 basehttp 8708 7712 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:35:55,525 basehttp 8708 3900 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:35:55,527 basehttp 8708 10916 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:35:55,541 basehttp 8708 6268 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:35:55,712 basehttp 8708 3632 "GET /admin/jsi18n/ HTTP/1.1" 500 122900
+INFO 2024-03-19 16:35:57,474 basehttp 8708 3632 "GET /admin/salao/agendamento/1/change/ HTTP/1.1" 200 16577
+WARNING 2024-03-19 16:35:57,512 basehttp 8708 12240 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:35:57,529 basehttp 8708 3632 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:35:57,533 basehttp 8708 2100 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:35:57,534 basehttp 8708 9764 "GET /static/admin/js/calendar.js HTTP/1.1" 404 1819
+WARNING 2024-03-19 16:35:57,545 basehttp 8708 648 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:35:57,552 basehttp 8708 4252 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:35:57,555 basehttp 8708 7000 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 404 1864
+WARNING 2024-03-19 16:35:57,570 basehttp 8708 4144 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:35:57,574 basehttp 8708 7076 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:35:57,578 basehttp 8708 3676 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:35:57,588 basehttp 8708 7656 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:35:57,588 basehttp 8708 8336 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:35:57,594 basehttp 8708 12148 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 1843
+WARNING 2024-03-19 16:35:57,610 basehttp 8708 3260 "GET /static/admin/js/change_form.js HTTP/1.1" 404 1828
+ERROR 2024-03-19 16:35:57,940 basehttp 8708 10872 "GET /admin/jsi18n/ HTTP/1.1" 500 122909
+INFO 2024-03-19 16:36:22,303 autoreload 8708 9416 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-19 16:36:23,132 autoreload 10444 10688 Watching for file changes with StatReloader
+INFO 2024-03-19 16:39:07,379 autoreload 8648 1396 Watching for file changes with StatReloader
+INFO 2024-03-19 16:39:10,999 basehttp 8648 8824 "GET /admin/salao/agendamento/ HTTP/1.1" 200 13336
+WARNING 2024-03-19 16:39:11,062 basehttp 8648 9012 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:39:11,065 basehttp 8648 8824 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:39:11,066 basehttp 8648 11688 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:39:11,067 basehttp 8648 12012 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:39:11,067 basehttp 8648 10404 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:39:11,072 basehttp 8648 4012 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:39:11,091 basehttp 8648 10908 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:39:11,093 basehttp 8648 11892 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:39:11,104 basehttp 8648 4680 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:39:11,107 basehttp 8648 6780 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:39:11,121 basehttp 8648 4460 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:39:11,425 basehttp 8648 9100 "GET /admin/jsi18n/ HTTP/1.1" 500 122900
+INFO 2024-03-19 16:39:14,850 basehttp 8648 9100 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-19 16:39:14,884 basehttp 8648 9100 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 304 0
+ERROR 2024-03-19 16:39:15,788 log 8648 9100 Internal Server Error: /salao/agenda/
+Traceback (most recent call last):
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py", line 30, in agenda_view
+    agendamentos = Agendamento.objects.filter(status=False).order_by('data_inicio')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Joao\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'status' into field. Choices are: cliente, cliente_id, concluido, data_final, data_inicio, descricao, funcionario, funcionario_id, id, preco, titulo
+ERROR 2024-03-19 16:39:15,934 basehttp 8648 9100 "GET /salao/agenda/ HTTP/1.1" 500 120519
+INFO 2024-03-19 16:39:49,028 autoreload 8648 1396 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:39:49,995 autoreload 8336 6268 Watching for file changes with StatReloader
+INFO 2024-03-19 16:39:53,044 autoreload 8336 6268 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-19 16:39:53,940 autoreload 9968 5148 Watching for file changes with StatReloader
+INFO 2024-03-19 16:40:05,978 autoreload 9968 5148 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:40:06,904 autoreload 9880 10512 Watching for file changes with StatReloader
+INFO 2024-03-19 16:40:09,021 autoreload 9880 10512 C:\Users\Joao\Desktop\CyberSolutions\salao\views\funcionarios.py changed, reloading.
+INFO 2024-03-19 16:40:10,031 autoreload 10328 1332 Watching for file changes with StatReloader
+INFO 2024-03-19 16:40:15,873 basehttp 10328 9948 "GET /salao/agenda/ HTTP/1.1" 200 29477
+INFO 2024-03-19 16:40:15,977 basehttp 10328 9948 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 16:40:15,995 basehttp 10328 3740 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 16:40:16,002 basehttp 10328 9080 "GET /static/salao/js/agenda/agenda.js HTTP/1.1" 200 436
+INFO 2024-03-19 16:40:16,038 basehttp 10328 1208 "GET /static/salao/css/agenda/agenda.css HTTP/1.1" 200 8329
+INFO 2024-03-19 16:40:16,039 basehttp 10328 8896 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 16:40:20,866 basehttp 10328 8896 "GET /salao/financeiro/ HTTP/1.1" 200 6920
+INFO 2024-03-19 16:40:20,898 basehttp 10328 8896 "GET /static/salao/css/financeiro/financeiro.css HTTP/1.1" 304 0
+INFO 2024-03-19 16:40:27,477 basehttp 10328 8896 "GET /salao/agenda/ HTTP/1.1" 200 29477
+INFO 2024-03-19 16:40:32,809 basehttp 10328 8896 "POST /salao/agenda/atualiza_agendamento/6/ HTTP/1.1" 302 0
+INFO 2024-03-19 16:40:32,981 basehttp 10328 8896 "GET /salao/agenda/agendamentos_concluidos/ HTTP/1.1" 302 0
+INFO 2024-03-19 16:40:33,152 basehttp 10328 8896 "GET /salao/ HTTP/1.1" 200 3321
+INFO 2024-03-19 16:40:34,132 basehttp 10328 8896 "GET /salao/agenda/ HTTP/1.1" 200 29336
+INFO 2024-03-19 16:40:36,051 basehttp 10328 8896 "GET /salao/financeiro/ HTTP/1.1" 200 6928
+INFO 2024-03-19 16:40:54,708 basehttp 10328 8896 "GET /salao/agenda/ HTTP/1.1" 200 29336
+INFO 2024-03-19 16:41:00,978 basehttp 10328 8896 "GET /salao/agenda/edita_agendamento/6/ HTTP/1.1" 200 5677
+INFO 2024-03-19 16:41:01,006 basehttp 10328 8896 "GET /static/salao/css/agenda/novo_agendamento.css HTTP/1.1" 200 3255
+INFO 2024-03-19 16:41:08,783 basehttp 10328 8896 "GET /salao/financeiro/ HTTP/1.1" 200 6928
+INFO 2024-03-19 16:41:09,721 basehttp 10328 8896 - Broken pipe from ('127.0.0.1', 64156)
+INFO 2024-03-19 16:41:10,183 basehttp 10328 1208 - Broken pipe from ('127.0.0.1', 64154)
+INFO 2024-03-19 16:41:10,406 basehttp 10328 9080 - Broken pipe from ('127.0.0.1', 64155)
+INFO 2024-03-19 16:41:10,671 basehttp 10328 9948 - Broken pipe from ('127.0.0.1', 64150)
+INFO 2024-03-19 16:41:10,732 basehttp 10328 3740 - Broken pipe from ('127.0.0.1', 64151)
+INFO 2024-03-19 16:41:10,991 basehttp 10328 4972 - Broken pipe from ('127.0.0.1', 64176)
+INFO 2024-03-19 16:41:11,082 basehttp 10328 9852 - Broken pipe from ('127.0.0.1', 64178)
+INFO 2024-03-19 16:41:11,194 basehttp 10328 2280 "GET /salao/financeiro/ HTTP/1.1" 200 6928
+INFO 2024-03-19 16:41:19,049 autoreload 11956 9664 Watching for file changes with StatReloader
+INFO 2024-03-19 16:41:20,788 basehttp 11956 10052 "GET /salao/financeiro/ HTTP/1.1" 200 6928
+INFO 2024-03-19 16:41:20,886 basehttp 11956 8488 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-19 16:41:20,901 basehttp 11956 10052 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-19 16:41:20,910 basehttp 11956 12004 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 16:41:20,918 basehttp 11956 10740 "GET /static/salao/css/financeiro/financeiro.css HTTP/1.1" 200 2361
+INFO 2024-03-19 16:41:20,928 basehttp 11956 8588 "GET /static/salao/js/financeiro/financeiro.js HTTP/1.1" 200 0
+INFO 2024-03-19 16:41:21,126 basehttp 11956 12004 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-19 16:41:24,188 basehttp 11956 12004 "GET /admin/salao/ HTTP/1.1" 200 6445
+WARNING 2024-03-19 16:41:24,230 basehttp 11956 12004 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:41:24,233 basehttp 11956 10740 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:24,268 basehttp 11956 8588 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-19 16:41:25,880 basehttp 11956 8588 "GET /admin/salao/financeiro/ HTTP/1.1" 200 10662
+WARNING 2024-03-19 16:41:25,922 basehttp 11956 8588 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:41:25,926 basehttp 11956 8488 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:41:25,928 basehttp 11956 10052 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:25,942 basehttp 11956 7744 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:25,952 basehttp 11956 10744 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:41:25,955 basehttp 11956 4268 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:41:25,966 basehttp 11956 4492 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:41:25,967 basehttp 11956 5380 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:25,967 basehttp 11956 9632 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:41:25,972 basehttp 11956 1412 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:41:25,985 basehttp 11956 9364 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:41:26,351 basehttp 11956 9808 "GET /admin/jsi18n/ HTTP/1.1" 500 122899
+INFO 2024-03-19 16:41:30,981 basehttp 11956 9808 "GET /admin/salao/financeiro/4/change/ HTTP/1.1" 200 12913
+WARNING 2024-03-19 16:41:31,016 basehttp 11956 9808 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:41:31,025 basehttp 11956 9236 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:31,043 basehttp 11956 10688 "GET /static/admin/js/calendar.js HTTP/1.1" 404 1819
+WARNING 2024-03-19 16:41:31,054 basehttp 11956 10732 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:41:31,056 basehttp 11956 2792 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:31,061 basehttp 11956 10576 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:41:31,063 basehttp 11956 8440 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 404 1864
+WARNING 2024-03-19 16:41:31,064 basehttp 11956 6320 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:41:31,076 basehttp 11956 11752 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:41:31,084 basehttp 11956 10444 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:41:31,101 basehttp 11956 9720 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:41:31,101 basehttp 11956 11584 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:41:31,103 basehttp 11956 4560 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 1843
+WARNING 2024-03-19 16:41:31,122 basehttp 11956 10632 "GET /static/admin/js/change_form.js HTTP/1.1" 404 1828
+ERROR 2024-03-19 16:41:31,445 basehttp 11956 7248 "GET /admin/jsi18n/ HTTP/1.1" 500 122908
+INFO 2024-03-19 16:41:38,840 basehttp 11956 7248 "GET /salao/financeiro/ HTTP/1.1" 200 6928
+INFO 2024-03-19 16:41:42,783 basehttp 11956 7248 "GET /salao/ HTTP/1.1" 200 3321
+INFO 2024-03-19 16:44:46,262 basehttp 11956 7248 "GET /salao/agenda/ HTTP/1.1" 200 29336
+INFO 2024-03-19 16:44:49,343 basehttp 11956 7248 "GET /salao/financeiro/ HTTP/1.1" 200 6928
+INFO 2024-03-19 16:44:58,895 basehttp 11956 7248 "POST /admin/salao/financeiro/4/change/ HTTP/1.1" 302 0
+INFO 2024-03-19 16:44:59,202 basehttp 11956 7248 "GET /admin/salao/financeiro/ HTTP/1.1" 200 10876
+WARNING 2024-03-19 16:44:59,241 basehttp 11956 7248 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-19 16:44:59,244 basehttp 11956 10432 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-19 16:44:59,264 basehttp 11956 2020 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:44:59,268 basehttp 11956 7544 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:44:59,268 basehttp 11956 1476 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-19 16:44:59,273 basehttp 11956 5488 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-19 16:44:59,302 basehttp 11956 8400 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-19 16:44:59,308 basehttp 11956 10776 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+WARNING 2024-03-19 16:44:59,308 basehttp 11956 4800 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-19 16:44:59,314 basehttp 11956 8832 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-19 16:44:59,328 basehttp 11956 10716 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-19 16:44:59,600 basehttp 11956 6540 "GET /admin/jsi18n/ HTTP/1.1" 500 122899
+INFO 2024-03-19 16:44:59,622 basehttp 11956 6540 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-03-19 16:45:03,880 basehttp 11956 6540 "GET /salao/financeiro/ HTTP/1.1" 200 8213
+INFO 2024-03-20 08:13:30,857 autoreload 9660 9720 Watching for file changes with StatReloader
+INFO 2024-03-20 08:13:57,841 autoreload 9660 9720 C:\Users\Joao\Desktop\CyberSolutions\salao\views\clientes.py changed, reloading.
+INFO 2024-03-20 08:13:58,649 autoreload 7984 8832 Watching for file changes with StatReloader
+INFO 2024-03-20 08:14:04,660 autoreload 1124 9780 Watching for file changes with StatReloader
+INFO 2024-03-20 08:14:15,246 autoreload 1124 9780 C:\Users\Joao\Desktop\CyberSolutions\salao\views\clientes.py changed, reloading.
+INFO 2024-03-20 08:14:16,049 autoreload 6152 8340 Watching for file changes with StatReloader
+INFO 2024-03-20 08:14:56,810 autoreload 6152 8340 C:\Users\Joao\Desktop\CyberSolutions\salao\views\clientes.py changed, reloading.
+INFO 2024-03-20 08:14:57,846 autoreload 4388 7500 Watching for file changes with StatReloader
+INFO 2024-03-20 08:20:03,822 autoreload 9572 4688 Watching for file changes with StatReloader
+INFO 2024-03-20 08:33:26,725 autoreload 8428 3788 Watching for file changes with StatReloader
+INFO 2024-03-20 08:46:09,180 basehttp 8428 8608 "GET /admin/ HTTP/1.1" 200 9514
+INFO 2024-03-20 08:46:09,302 basehttp 8428 10056 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-20 08:46:09,306 basehttp 8428 9844 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-20 08:46:09,312 basehttp 8428 8608 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-20 08:46:09,335 basehttp 8428 9844 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-03-20 08:46:09,348 basehttp 8428 10056 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+WARNING 2024-03-20 08:46:09,478 basehttp 8428 8608 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-20 08:46:09,479 basehttp 8428 9844 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-20 08:46:09,518 basehttp 8428 10056 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-20 08:46:09,518 basehttp 8428 2180 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-03-20 08:46:10,259 basehttp 8428 2180 "GET /salao/ HTTP/1.1" 200 3321
+INFO 2024-03-20 08:46:10,303 basehttp 8428 9872 "GET /static/salao/js/home.js HTTP/1.1" 200 0
+INFO 2024-03-20 08:46:10,305 basehttp 8428 9236 "GET /static/salao/css/home.css HTTP/1.1" 200 0
+INFO 2024-03-20 08:46:10,310 basehttp 8428 2180 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 08:46:10,329 basehttp 8428 10056 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 08:46:10,331 basehttp 8428 892 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 08:46:12,949 basehttp 8428 892 "GET /salao/agenda/ HTTP/1.1" 200 29336
+INFO 2024-03-20 08:46:12,994 basehttp 8428 892 "GET /static/salao/css/agenda/agenda.css HTTP/1.1" 200 8329
+INFO 2024-03-20 08:46:12,998 basehttp 8428 10056 "GET /static/salao/js/agenda/agenda.js HTTP/1.1" 200 436
+INFO 2024-03-20 08:46:14,117 basehttp 8428 10056 "GET /salao/financeiro/ HTTP/1.1" 200 8213
+INFO 2024-03-20 08:46:14,229 basehttp 8428 892 "GET /static/salao/js/financeiro/financeiro.js HTTP/1.1" 200 0
+INFO 2024-03-20 08:46:14,239 basehttp 8428 10056 "GET /static/salao/css/financeiro/financeiro.css HTTP/1.1" 200 2361
+INFO 2024-03-20 08:46:20,084 basehttp 8428 10056 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-20 08:46:20,126 basehttp 8428 10056 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 200 1560
+INFO 2024-03-20 08:46:20,126 basehttp 8428 892 "GET /static/salao/js/funcionarios/funcionarios.js HTTP/1.1" 200 40
+INFO 2024-03-20 08:46:22,156 basehttp 8428 892 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 08:46:22,198 basehttp 8428 892 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-20 08:47:07,196 basehttp 8428 892 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 08:47:07,221 basehttp 8428 892 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 08:47:07,233 basehttp 8428 10056 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 08:47:07,236 basehttp 8428 2180 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4422
+INFO 2024-03-20 08:47:07,237 basehttp 8428 9236 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 08:47:07,646 basehttp 8428 9236 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 08:48:14,134 basehttp 8428 9236 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 08:48:14,168 basehttp 8428 2180 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 08:48:14,169 basehttp 8428 9236 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 08:48:14,172 basehttp 8428 10056 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4426
+INFO 2024-03-20 08:48:14,174 basehttp 8428 892 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 08:48:14,569 basehttp 8428 892 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 08:48:23,391 basehttp 8428 892 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 304 0
+INFO 2024-03-20 13:18:28,163 autoreload 7352 10192 Watching for file changes with StatReloader
+INFO 2024-03-20 13:24:36,816 basehttp 7352 4068 "GET /salao/ HTTP/1.1" 200 3321
+INFO 2024-03-20 13:24:36,914 basehttp 7352 4068 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:24:36,936 basehttp 7352 4724 "GET /static/salao/css/home.css HTTP/1.1" 200 0
+INFO 2024-03-20 13:24:36,937 basehttp 7352 4744 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:24:36,962 basehttp 7352 6380 "GET /static/salao/js/home.js HTTP/1.1" 200 0
+INFO 2024-03-20 13:24:36,967 basehttp 7352 8508 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:24:38,885 basehttp 7352 8508 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-20 13:24:38,919 basehttp 7352 8508 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 200 1560
+INFO 2024-03-20 13:24:38,922 basehttp 7352 6380 "GET /static/salao/js/funcionarios/funcionarios.js HTTP/1.1" 200 40
+INFO 2024-03-20 13:24:41,350 basehttp 7352 6380 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:24:41,377 basehttp 7352 6380 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4426
+INFO 2024-03-20 13:25:26,883 basehttp 7352 6380 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:25:26,921 basehttp 7352 6380 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:25:26,925 basehttp 7352 8508 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:25:26,925 basehttp 7352 4744 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4426
+INFO 2024-03-20 13:25:26,927 basehttp 7352 4724 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:25:27,182 basehttp 7352 4744 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:25:28,175 basehttp 7352 4724 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:25:28,199 basehttp 7352 4724 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:25:28,201 basehttp 7352 4744 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:25:28,204 basehttp 7352 8508 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4426
+INFO 2024-03-20 13:25:28,206 basehttp 7352 6380 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:25:29,249 basehttp 7352 6380 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:25:29,289 basehttp 7352 6380 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:25:29,293 basehttp 7352 8508 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:25:29,294 basehttp 7352 4744 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4426
+INFO 2024-03-20 13:25:29,295 basehttp 7352 4724 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:25:29,473 basehttp 7352 4724 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:47:27,433 basehttp 7352 4856 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:47:27,473 basehttp 7352 4856 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:47:27,475 basehttp 7352 2144 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:47:27,509 basehttp 7352 1204 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+INFO 2024-03-20 13:47:27,533 basehttp 7352 2472 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:47:27,799 basehttp 7352 2472 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:47:29,391 basehttp 7352 2472 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:47:29,414 basehttp 7352 2472 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:47:29,428 basehttp 7352 1204 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:47:29,430 basehttp 7352 2144 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+INFO 2024-03-20 13:47:29,432 basehttp 7352 4856 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:47:29,729 basehttp 7352 4856 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:48:18,198 basehttp 7352 4856 - Broken pipe from ('127.0.0.1', 52570)
+INFO 2024-03-20 13:48:19,482 basehttp 7352 2144 - Broken pipe from ('127.0.0.1', 52571)
+INFO 2024-03-20 13:48:20,226 basehttp 7352 1204 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 13:48:20,273 basehttp 7352 1204 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 13:48:20,286 basehttp 7352 2472 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 13:48:20,298 basehttp 7352 5844 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+INFO 2024-03-20 13:48:20,303 basehttp 7352 10116 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:48:20,618 basehttp 7352 10116 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 13:48:53,257 basehttp 7352 10116 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 304 0
+INFO 2024-03-20 14:06:56,540 basehttp 7352 7292 "GET /salao/ HTTP/1.1" 200 3321
+INFO 2024-03-20 14:06:56,570 basehttp 7352 7292 "GET /static/salao/css/home.css HTTP/1.1" 200 0
+INFO 2024-03-20 14:06:56,619 basehttp 7352 7292 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:06:56,629 basehttp 7352 7292 "GET /static/salao/js/home.js HTTP/1.1" 200 0
+INFO 2024-03-20 14:06:56,633 basehttp 7352 6588 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:06:58,824 basehttp 7352 6588 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-20 14:06:58,846 basehttp 7352 6588 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 200 1560
+INFO 2024-03-20 14:06:58,852 basehttp 7352 7292 "GET /static/salao/js/funcionarios/funcionarios.js HTTP/1.1" 200 40
+INFO 2024-03-20 14:07:00,784 basehttp 7352 7292 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:07:00,817 basehttp 7352 7292 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+INFO 2024-03-20 14:07:57,824 autoreload 7352 10192 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-20 14:07:58,777 autoreload 9828 4244 Watching for file changes with StatReloader
+INFO 2024-03-20 14:08:07,690 autoreload 9828 4244 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-20 14:08:08,463 autoreload 2960 9176 Watching for file changes with StatReloader
+INFO 2024-03-20 14:08:29,439 autoreload 2960 9176 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-20 14:08:30,264 autoreload 1812 5984 Watching for file changes with StatReloader
+INFO 2024-03-20 14:08:31,751 autoreload 1812 5984 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-20 14:08:32,568 autoreload 8668 9840 Watching for file changes with StatReloader
+INFO 2024-03-20 14:08:35,550 autoreload 8668 9840 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-20 14:08:36,440 autoreload 4812 3192 Watching for file changes with StatReloader
+INFO 2024-03-20 14:08:40,545 autoreload 4812 3192 C:\Users\Joao\Desktop\CyberSolutions\salao\models.py changed, reloading.
+INFO 2024-03-20 14:08:41,413 autoreload 9556 2788 Watching for file changes with StatReloader
+INFO 2024-03-20 14:09:10,218 autoreload 5540 9808 Watching for file changes with StatReloader
+INFO 2024-03-20 14:09:13,015 basehttp 5540 2228 - Broken pipe from ('127.0.0.1', 53114)
+INFO 2024-03-20 14:09:14,077 basehttp 5540 9804 "GET /admin/ HTTP/1.1" 200 9514
+INFO 2024-03-20 14:09:14,247 basehttp 5540 9532 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+WARNING 2024-03-20 14:09:14,273 basehttp 5540 8760 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-20 14:09:14,295 basehttp 5540 9532 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+INFO 2024-03-20 14:09:14,299 basehttp 5540 9804 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-20 14:09:14,314 basehttp 5540 3004 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-03-20 14:09:14,325 basehttp 5540 1684 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-20 14:09:14,330 basehttp 5540 6692 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-03-20 14:09:14,401 basehttp 5540 6692 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-20 14:09:14,403 basehttp 5540 1684 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2024-03-20 14:09:14,483 basehttp 5540 1684 "GET /favicon.ico HTTP/1.1" 404 2224
+ERROR 2024-03-20 14:13:22,786 basehttp 5540 1684 "GET /admin/salao/financeiro/ HTTP/1.1" 500 209530
+INFO 2024-03-20 14:17:56,236 autoreload 2844 4976 Watching for file changes with StatReloader
+INFO 2024-03-20 14:17:59,966 basehttp 2844 5804 "GET /admin/ HTTP/1.1" 200 9514
+INFO 2024-03-20 14:18:00,070 basehttp 2844 5804 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-20 14:18:00,071 basehttp 2844 9392 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-20 14:18:00,090 basehttp 2844 7744 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+WARNING 2024-03-20 14:18:00,097 basehttp 2844 5804 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-20 14:18:00,099 basehttp 2844 8472 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2024-03-20 14:18:00,110 basehttp 2844 9544 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-20 14:18:00,132 basehttp 2844 6492 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-03-20 14:18:00,145 basehttp 2844 6492 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-20 14:18:00,145 basehttp 2844 9544 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2024-03-20 14:18:00,233 basehttp 2844 9544 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-20 14:18:03,318 basehttp 2844 9544 "GET /admin/salao/financeiro/ HTTP/1.1" 200 8496
+WARNING 2024-03-20 14:18:03,364 basehttp 2844 9544 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2024-03-20 14:18:03,371 basehttp 2844 6492 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 1828
+WARNING 2024-03-20 14:18:03,371 basehttp 2844 3776 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 1828
+WARNING 2024-03-20 14:18:03,376 basehttp 2844 448 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 1855
+WARNING 2024-03-20 14:18:03,395 basehttp 2844 4640 "GET /static/admin/js/core.js HTTP/1.1" 404 1807
+INFO 2024-03-20 14:18:03,396 basehttp 2844 7744 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+WARNING 2024-03-20 14:18:03,397 basehttp 2844 8332 "GET /static/admin/js/actions.js HTTP/1.1" 404 1816
+WARNING 2024-03-20 14:18:03,404 basehttp 2844 7932 "GET /static/admin/js/urlify.js HTTP/1.1" 404 1813
+WARNING 2024-03-20 14:18:03,409 basehttp 2844 10080 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 1873
+WARNING 2024-03-20 14:18:03,417 basehttp 2844 10088 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 1828
+WARNING 2024-03-20 14:18:03,423 basehttp 2844 7744 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 1861
+WARNING 2024-03-20 14:18:03,434 basehttp 2844 9264 "GET /static/admin/js/filters.js HTTP/1.1" 404 1816
+ERROR 2024-03-20 14:18:03,891 basehttp 2844 9392 "GET /admin/jsi18n/ HTTP/1.1" 500 122899
+INFO 2024-03-20 14:18:03,936 basehttp 2844 9392 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-03-20 14:19:20,471 autoreload 2844 4976 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-20 14:19:21,463 autoreload 6920 3396 Watching for file changes with StatReloader
+INFO 2024-03-20 14:19:28,123 autoreload 6920 3396 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-20 14:19:29,274 autoreload 6532 9876 Watching for file changes with StatReloader
+INFO 2024-03-20 14:19:34,433 autoreload 6532 9876 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-20 14:19:35,207 autoreload 5540 7264 Watching for file changes with StatReloader
+INFO 2024-03-20 14:19:37,888 autoreload 5540 7264 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-20 14:19:38,794 autoreload 9592 5832 Watching for file changes with StatReloader
+INFO 2024-03-20 14:20:06,253 autoreload 9592 5832 C:\Users\Joao\Desktop\CyberSolutions\salao\views\agendamento.py changed, reloading.
+INFO 2024-03-20 14:20:07,225 autoreload 448 2324 Watching for file changes with StatReloader
+INFO 2024-03-20 14:20:18,663 basehttp 448 9972 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:20:18,766 basehttp 448 9972 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:20:18,838 basehttp 448 5264 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+INFO 2024-03-20 14:20:18,868 basehttp 448 2764 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:20:18,870 basehttp 448 8132 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:20:19,091 basehttp 448 8132 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:34:09,026 basehttp 448 6252 "GET /salao/financeiro/ HTTP/1.1" 200 6243
+INFO 2024-03-20 14:34:09,062 basehttp 448 6252 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:34:09,064 basehttp 448 10176 "GET /static/salao/css/financeiro/financeiro.css HTTP/1.1" 200 2361
+INFO 2024-03-20 14:34:09,074 basehttp 448 6876 "GET /static/salao/js/financeiro/financeiro.js HTTP/1.1" 200 0
+INFO 2024-03-20 14:34:09,092 basehttp 448 1248 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:34:51,873 basehttp 448 1248 - Broken pipe from ('127.0.0.1', 53332)
+INFO 2024-03-20 14:34:51,942 basehttp 448 10176 "GET /salao/financeiro/ HTTP/1.1" 200 6243
+INFO 2024-03-20 14:34:53,225 basehttp 448 10176 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-20 14:34:53,259 basehttp 448 6876 "GET /static/salao/js/funcionarios/funcionarios.js HTTP/1.1" 200 40
+INFO 2024-03-20 14:34:53,259 basehttp 448 10176 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 200 1560
+INFO 2024-03-20 14:34:56,031 basehttp 448 10176 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:34:56,063 basehttp 448 10176 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+WARNING 2024-03-20 14:34:58,688 basehttp 448 10176 "GET /favicon.ico HTTP/1.1" 404 2224
+INFO 2024-03-20 14:35:06,815 basehttp 448 10176 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:35:06,851 basehttp 448 10176 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:35:06,854 basehttp 448 6876 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:35:06,857 basehttp 448 6252 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4449
+INFO 2024-03-20 14:35:06,891 basehttp 448 6852 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:36:02,385 basehttp 448 6852 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:36:02,427 basehttp 448 6852 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:36:02,433 basehttp 448 6252 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:36:02,437 basehttp 448 6876 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4484
+INFO 2024-03-20 14:36:02,438 basehttp 448 10176 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:36:02,728 basehttp 448 10176 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:36:04,262 basehttp 448 10176 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:36:04,296 basehttp 448 10176 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:36:04,297 basehttp 448 6876 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:36:04,301 basehttp 448 6252 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4484
+INFO 2024-03-20 14:36:04,304 basehttp 448 6852 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:36:04,577 basehttp 448 6252 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:36:05,285 basehttp 448 6852 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 18188
+INFO 2024-03-20 14:36:05,328 basehttp 448 6852 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:36:05,342 basehttp 448 6252 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:36:05,346 basehttp 448 10176 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4484
+INFO 2024-03-20 14:36:05,348 basehttp 448 6876 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:37:19,685 basehttp 448 6876 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-20 14:49:51,845 basehttp 448 1876 "GET /salao/funcionarios/ HTTP/1.1" 200 5012
+INFO 2024-03-20 14:49:51,936 basehttp 448 1876 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:49:51,940 basehttp 448 5948 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:49:51,947 basehttp 448 9024 "GET /static/salao/css/funcionarios/funcionarios.css HTTP/1.1" 200 1560
+INFO 2024-03-20 14:49:51,963 basehttp 448 5408 "GET /static/salao/js/funcionarios/funcionarios.js HTTP/1.1" 200 40
+INFO 2024-03-20 14:49:51,970 basehttp 448 9620 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:49:52,210 basehttp 448 9620 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:49:55,055 basehttp 448 9620 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 26089
+INFO 2024-03-20 14:49:55,108 basehttp 448 9620 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4700
+INFO 2024-03-20 14:50:00,127 basehttp 448 9620 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 26089
+INFO 2024-03-20 14:50:00,158 basehttp 448 9620 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:50:00,167 basehttp 448 5408 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:50:00,170 basehttp 448 9024 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4700
+INFO 2024-03-20 14:50:00,175 basehttp 448 5948 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:50:00,446 basehttp 448 5948 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:50:43,651 basehttp 448 5948 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 26089
+INFO 2024-03-20 14:50:43,686 basehttp 448 5948 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:50:43,688 basehttp 448 9024 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:50:43,693 basehttp 448 9620 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:50:43,695 basehttp 448 5408 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4759
+INFO 2024-03-20 14:50:44,053 basehttp 448 9620 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:50:45,954 basehttp 448 9620 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 26089
+INFO 2024-03-20 14:50:45,991 basehttp 448 9620 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 14:50:45,994 basehttp 448 5408 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 14:50:45,999 basehttp 448 9024 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4759
+INFO 2024-03-20 14:50:46,001 basehttp 448 5948 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 14:50:46,364 basehttp 448 5948 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 15:26:11,244 basehttp 448 6692 "GET /salao/funcionarios/edita_funcionario/1/ HTTP/1.1" 200 26089
+INFO 2024-03-20 15:26:11,274 basehttp 448 6692 "GET /static/css/base_style.css HTTP/1.1" 200 3779
+INFO 2024-03-20 15:26:11,275 basehttp 448 6876 "GET /static/js/base_js.js HTTP/1.1" 200 725
+INFO 2024-03-20 15:26:11,326 basehttp 448 5076 "GET /static/images/logo.ico HTTP/1.1" 200 239774
+INFO 2024-03-20 15:26:11,352 basehttp 448 6336 "GET /static/salao/css/funcionarios/editar_funcionario.css HTTP/1.1" 200 4759
+INFO 2024-03-20 15:26:11,557 basehttp 448 6336 "GET /static/images/logo.ico HTTP/1.1" 200 239774

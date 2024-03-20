@@ -273,7 +273,7 @@
     function updateCalendarDisplay(selectedDate) {
         if (selectedDate) {
             $.ajax({
-                url: '/agenda/',
+                url: '/salao/agenda/',
                 type: 'POST',
                 data: {
                     csrfmiddlewaretoken: '{{ csrf_token }}',

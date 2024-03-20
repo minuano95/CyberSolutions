@@ -16,6 +16,7 @@ urlpatterns = [
     path('funcionarios/edita_funcionario/<int:funcionario_id>/', edita_funcionario, name="edita_funcionario"),
     path('funcionarios/exclui_funcionario/<int:funcionario_id>/', exclui_funcionario, name="exclui_funcionario"),
     path('funcionarios/adiciona_funcionario/', adiciona_funcionario, name="adiciona_funcionario"),
+    path('funcionarios/deleta_agendamento_funcionario/<int:agendamento_id>/', deleta_agendamento_funcionario, name="deleta_agendamento_funcionario"),
 
     path('clientes/', clientes_view, name='clientes'),
     path('clientes/edita_cliente/<int:cliente_id>/', edita_cliente, name="edita_cliente"),

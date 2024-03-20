@@ -34,7 +34,6 @@ class Agendamento(models.Model):
     data_inicio = models.DateTimeField()
     data_final = models.DateTimeField()
     concluido = models.BooleanField(default=False)
-    status = models.BooleanField(default=False)
     
     def __str__(self):
         return f'{self.titulo} em {self.data_inicio}'
@@ -46,6 +45,8 @@ class Financeiro(models.Model):
     descricao = models.CharField(max_length=100)
     is_agendamento = models.BooleanField(default=False)
     id_agendamento = models.CharField(max_length=3, blank=True)
+    is_pagamento = models.BooleanField(default=False)
+    id_funcionario = models.BooleanField(max_length=3, blank=True)
     data = models.DateTimeField()
     
     def __str__(self) -> str:
