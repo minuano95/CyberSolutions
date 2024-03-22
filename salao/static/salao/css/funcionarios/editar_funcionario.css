@@ -19,15 +19,13 @@ body {
 }
 
 .card {
-    width: 100%;
-    margin: auto;
+    display: inline-flex; /* Mantém o display como flexível, mas inline */
+    flex-direction: row;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 3rem;
-    display: flex;
-    flex-direction: row;
-    max-height: 40vw;
+    max-height: max-content;
 }
 
 
@@ -64,7 +62,7 @@ body {
 
 .tabela-agendamentos {
     margin-top: 1vw;
-    max-height: 64%;
+    max-height: 100%;
     overflow: scroll;
 }
 

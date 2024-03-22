@@ -1,0 +1,5 @@
+Verificar se esta passando do firewall = tcpdum
+Verificar se a porta está aberta = netstat
+Verificar security group aws
+Verificar my.cnf do mysql
+Verificar users do mysql

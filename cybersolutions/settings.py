@@ -89,7 +89,7 @@ DATABASES = {
         'ENGINE': 'mysql.connector.django',
         'NAME': 'cybersolutions',
         'USER': 'minuano95',
-        'PASSWORD': '11223344',
+        'PASSWORD': 'Ruizdesangue00.',
         'HOST': '18.228.46.31',
         'PORT': '3306'
     }       
