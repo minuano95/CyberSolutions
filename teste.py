@@ -13,10 +13,10 @@ conn = mysql.connector.connect(
 )
 
 cursor = conn.cursor()
-cursor.execute('SELECT * FROM salao_financeiro')
+# cursor.execute('SELECT * FROM salao_financeiro')
 
-for financeiro in cursor.fetchall():
-    print(financeiro)
+# for financeiro in cursor.fetchall():
+#     print(financeiro)
     # id = financeiro[0]
     # cursor.execute('DELETE FROM salao_financeiro WHERE id=%s', (id,))
     # conn.commit()
@@ -66,13 +66,13 @@ def gerar_dados_agendamento_ultimos_6_meses():
     return (titulo, descricao, cliente_id, funcionario_id, preco, data_inicio, data_final, concluido,)
 
 
-# # Cria 10 agendamentos
-# for _ in range(10):
-#     dados = gerar_dados_agendamento_ultimos_6_meses()
-#     # Query SQL para inserir os dados do agendamento
-#     query = "INSERT INTO salao_agendamento (titulo, descricao, cliente_id, funcionario_id, preco, data_inicio, data_final, concluido) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
-#     cursor.execute(query, dados)
-#     conn.commit()
+# Cria 10 agendamentos
+for _ in range(10):
+    dados = gerar_dados_agendamento_ultimos_6_meses()
+    # Query SQL para inserir os dados do agendamento
+    query = "INSERT INTO salao_agendamento (titulo, descricao, cliente_id, funcionario_id, preco, data_inicio, data_final, concluido) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+    cursor.execute(query, dados)
+    conn.commit()
     
 # cursor.execute("DELETE FROM salao_cliente")
 # cursor.execute("DELETE FROM salao_agendamento")

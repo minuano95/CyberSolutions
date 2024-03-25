@@ -19,13 +19,15 @@ body {
 }
 
 .card {
-    display: inline-flex; /* Mantém o display como flexível, mas inline */
+    display: flex; /* Mantém o display como flexível, mas inline */
     flex-direction: row;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 3rem;
-    max-height: max-content;
+    margin-top: 6vh;
+    margin-bottom: 0;
+    max-height: 83vh; /* Defina a altura máxima para 90% da altura da janela de visualização */
+    overflow: hidden; /* Adicione uma barra de rolagem se o conteúdo exceder a altura máxima */
 }
 
 
@@ -61,11 +63,14 @@ body {
 }
 
 .tabela-agendamentos {
-    margin-top: 1vw;
-    max-height: 100%;
+    max-height: 100vh;
     overflow: scroll;
+    height: auto;
 }
 
+.table {
+    margin-bottom: 50vh
+}
 
 form {
     padding-left: 2rem;

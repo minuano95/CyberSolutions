@@ -30,6 +30,9 @@
                 </div>
             </div>
 
+            {% comment %} <div class="table-wa"> {% endcomment %}
+
+            {% comment %} </div> {% endcomment %}
             <div class="tabela-agendamentos">
                 <table class="table table-striped" style="width:100%">
                     <thead>
@@ -44,6 +47,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                       
                         {%for agendamento in agendamentos %}
                         <tr class="agendamento-item" data-agendamento-staus="{{ funcionario.staus }}">
                             <td>{{ agendamento.titulo }}</td>
